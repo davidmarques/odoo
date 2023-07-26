@@ -140,6 +140,7 @@ class HrAttendance(models.Model):
         for emp, attendance_dates in employee_attendance_dates.items():
             # get_attendances_dates returns the date translated from the local timezone without tzinfo,
             # and contains all the date which we need to check for overtime
+            emp_tz = pytz.timezone(emp._get_tz())
             attendance_domain = []
             for attendance_date in attendance_dates:
                 attendance_domain = OR([attendance_domain, [
@@ -162,9 +163,8 @@ class HrAttendance(models.Model):
             expected_attendances = emp.resource_calendar_id._attendance_intervals_batch(
                 start, stop, emp.resource_id
             )[emp.resource_id.id]
-            # Substract Global Leaves and Employee's Leaves
-            leave_intervals = emp.resource_calendar_id._leave_intervals_batch(start, stop, emp.resource_id, domain=[])
-            expected_attendances -= leave_intervals[False] | leave_intervals[emp.resource_id.id]
+            # Substract Global Leaves
+            expected_attendances -= emp.resource_calendar_id._leave_intervals_batch(start, stop, None)[False]
 
             # working_times = {date: [(start, stop)]}
             working_times = defaultdict(lambda: [])
@@ -279,14 +279,13 @@ class HrAttendance(models.Model):
 
     def write(self, vals):
         attendances_dates = self._get_attendances_dates()
-        result = super(HrAttendance, self).write(vals)
+        super(HrAttendance, self).write(vals)
         if any(field in vals for field in ['employee_id', 'check_in', 'check_out']):
             # Merge attendance dates before and after write to recompute the
             # overtime if the attendances have been moved to another day
             for emp, dates in self._get_attendances_dates().items():
                 attendances_dates[emp] |= dates
             self._update_overtime(attendances_dates)
-        return result
 
     def unlink(self):
         attendances_dates = self._get_attendances_dates()

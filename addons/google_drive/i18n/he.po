@@ -9,7 +9,6 @@
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2021
 # Ofir Blum <ofir.blum@gmail.com>, 2021
 # Lilach Gilliam <lilach.gilliam@gmail.com>, 2021
-# Ha Ketem <haketem@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -17,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:28+0000\n"
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
-"Last-Translator: Ha Ketem <haketem@gmail.com>, 2022\n"
-"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
+"Last-Translator: Lilach Gilliam <lilach.gilliam@gmail.com>, 2021\n"
+"Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -39,12 +38,12 @@ msgstr ""
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
 msgid "<i class=\"fa fa-arrow-right\"/> Reset token"
-msgstr "<i class=\"fa fa-arrow-right\"/>איפוס אסימון"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
 msgid "<i class=\"fa fa-arrow-right\"/> Set up token"
-msgstr "<i class=\"fa fa-arrow-right\"/>יצירת אסימון"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
@@ -52,18 +51,16 @@ msgid ""
 "<i class=\"fa fa-exclamation-triangle text-warning\"/> &amp;nbsp; No refresh"
 " token set"
 msgstr ""
-"<i class=\"fa fa-exclamation-triangle text-warning\"/> &amp;nbsp; רענון "
-"אסימון לא הוגדר"
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
 msgid "<i class=\"text-success fa fa-check\"/> &amp;nbsp; Refresh token set"
-msgstr "<i class=\"text-success fa fa-check\"/> &amp;nbsp; רענון אסימון הוגדר"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.google_drive_auth_code_wizard
 msgid "<span>Get an authorization code and set it in the field below.</span>"
-msgstr "<span>קבלת קוד אישור והגדרתו בשדה כאן למטה.</span>"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_kanban
@@ -73,12 +70,12 @@ msgstr "<strong>פעיל</strong>"
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_kanban
 msgid "<strong>Model</strong>"
-msgstr "<strong>מודל</strong>"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_kanban
 msgid "<strong>Template</strong>"
-msgstr "<strong>תבנית</strong>"
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__active
@@ -88,7 +85,7 @@ msgstr "פעיל"
 #. module: google_drive
 #: model_terms:ir.actions.act_window,help:google_drive.action_google_drive_users_config
 msgid "Add a new template"
-msgstr "הוספת תבנית חדשה"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.google_drive_config_view_search
@@ -117,7 +114,6 @@ msgid ""
 "Choose how the new google drive will be named, on google side. Eg. "
 "gdoc_%(field_name)s"
 msgstr ""
-"הגדרת איך ייקרא לגוגל דרייה החדש, מהצד של גוגל. לדוג' gdoc_%(field_name)s"
 
 #. module: google_drive
 #: model:ir.model,name:google_drive.model_res_config_settings
@@ -163,7 +159,7 @@ msgstr "מסנן"
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.google_drive_auth_code_wizard
 msgid "Get Authorization Code"
-msgstr "קבלת קוד אישור"
+msgstr ""
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:0
@@ -186,12 +182,12 @@ msgstr "הגדרות Google Drive"
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__name_template
 msgid "Google Drive Name Pattern"
-msgstr "תבנית שם בגוגל דרייב"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
 msgid "Google Drive Templates"
-msgstr "תבניות גוגל דרייב"
+msgstr ""
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:0
@@ -203,7 +199,7 @@ msgstr "Google Drive עדיין אינו מוגדר. פנה למנהל המער�
 #. module: google_drive
 #: model:ir.model,name:google_drive.model_google_drive_config
 msgid "Google Drive templates config"
-msgstr "הגדרת תבניות גוגל דרייב"
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__id
@@ -258,7 +254,7 @@ msgstr "אנא הכנס כתובת Google Document תקינה."
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_res_config_settings__is_google_drive_token_generated
 msgid "Refresh Token Generated"
-msgstr "נוצר אסימון רענון"
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__model
@@ -273,13 +269,13 @@ msgstr "מזהה משאב"
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.google_drive_config_view_search
 msgid "Search Google Drive Config"
-msgstr "חיפוש הגדרות גוגל דרייב"
+msgstr ""
 
 #. module: google_drive
 #: code:addons/google_drive/models/res_config_settings.py:0
 #, python-format
 msgid "Set up refresh token"
-msgstr "יצירת אסימון רענון"
+msgstr ""
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:0
@@ -287,7 +283,7 @@ msgstr "יצירת אסימון רענון"
 msgid ""
 "Something went wrong during the token generation. Please request again an "
 "authorization code ."
-msgstr "משהו השתבש ביצירת אסימון. נא לבקש שוב קוד אישור."
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__name
@@ -313,7 +309,7 @@ msgstr ""
 #. module: google_drive
 #: model:ir.model.fields,help:google_drive.field_res_config_settings__google_drive_uri
 msgid "The URL to generate the authorization code from Google"
-msgstr "הכתובת URL ליצירת קודי אישור מגוגל"
+msgstr ""
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:0
@@ -349,19 +345,9 @@ msgid ""
 msgstr ""
 
 #. module: google_drive
-#: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
-msgid "This module will stop working after the 3rd October 2022 due to"
-msgstr ""
-
-#. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_res_config_settings__google_drive_uri
 msgid "URI"
 msgstr "URI"
-
-#. module: google_drive
-#: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
-msgid "changes in Google Authentication API"
-msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_form

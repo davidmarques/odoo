@@ -425,7 +425,6 @@ function factory(dependencies) {
             let data = {
                 body: body,
                 attachment_ids: composer.attachments.concat(this.messageViewInEditing.message.attachments).map(attachment => attachment.id),
-                attachment_tokens: composer.attachments.concat(this.messageViewInEditing.message.attachments).map(attachment => attachment.accessToken),
             };
             try {
                 composer.update({ isPostingMessage: true });
@@ -749,7 +748,6 @@ function factory(dependencies) {
             body = this._generateEmojisOnHtml(body);
             return {
                 attachment_ids: this.composer.attachments.map(attachment => attachment.id),
-                attachment_tokens: this.composer.attachments.map(attachment => attachment.accessToken),
                 body,
                 message_type: 'comment',
                 partner_ids: this.composer.recipients.map(partner => partner.id),

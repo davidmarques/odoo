@@ -9,17 +9,15 @@
 # Link Up링크업 <linkup.way@gmail.com>, 2021
 # Linkup <link-up@naver.com>, 2021
 # Heesoo Choi, 2021
-# Daye Jeong, 2023
-# Sarah Park, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 16:40+0000\n"
+"POT-Creation-Date: 2021-10-05 10:54+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
-"Last-Translator: Sarah Park, 2023\n"
-"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"Last-Translator: Heesoo Choi, 2021\n"
+"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,12 +28,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_res_partner__event_count
 #: model:ir.model.fields,field_description:event.field_res_users__event_count
 msgid "# Events"
-msgstr "# 행사"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_count_done
 msgid "# Sent"
-msgstr "# 전송 완료"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event_event.py:0
@@ -53,7 +51,7 @@ msgstr ""
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_foldable_badge
 msgid "'Foldable Badge - %s' % (object.name or 'Event').replace('/','')"
-msgstr "'접이식 배지 - %s' % (object.name or 'Event').replace('/','')"
+msgstr ""
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_full_page_ticket
@@ -65,27 +63,27 @@ msgstr ""
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_full_page_ticket
 msgid "'Full Page Ticket - %s' % (object.name or 'Event').replace('/','')"
-msgstr "'티켓 전체 페이지 - %s' % (object.name or 'Event').replace('/','')"
+msgstr ""
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_2
 msgid "10-14"
-msgstr "10-14"
+msgstr ""
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_3
 msgid "15-18"
-msgstr "15-18"
+msgstr ""
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_4
 msgid "18+"
-msgstr "18+"
+msgstr ""
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_1
 msgid "5-10"
-msgstr "5-10"
+msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -167,18 +165,6 @@ msgid ""
 "    </t>\n"
 "</div>"
 msgstr ""
-"<div>\n"
-"    안녕하세요 <t t-out=\"object.name or ''\">Oscar Morgan</t>님,<br/>\n"
-"    문의주셔서 감사합니다.<br/>\n"
-"    다음 행사 관련 배지를 확인하시기 바랍니다<t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.<br/>\n"
-"    궁금한 점이 있으실 경우, 언제든 문의주시기 바랍니다.\n"
-"    <br/><br/>\n"
-"    감사합니다.\n"
-"    <t t-if=\"object.event_id.user_id.signature\">\n"
-"        <br/>\n"
-"        <t t-out=\"object.event_id.user_id.signature or ''\">--<br/>Mitchell Admin</t>\n"
-"    </t>\n"
-"</div>"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -189,9 +175,6 @@ msgid ""
 "community module, a case study, methodology feedback, technical, etc. Each "
 "presentation must be in English.</em>"
 msgstr ""
-"<em>프레젠테이션을 희망하시는 경우, 최대한 빨리 ngh (a) yourcompany (dot) com 를 통해 담당자 Famke "
-"씨에게 보내셔서 확인을 받으시기 바랍니다. 프레젠테이션은 예를 들어, 커뮤니티 모듈이나 케이스 스터디, 방법론적인 피드백이나 기술 등에 "
-"대한 프레젠테이션이어야 합니다. 모든 프레젠테이션은 반드시 영어로 진행되어야 합니다.</em> "
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
@@ -204,8 +187,6 @@ msgid ""
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm button\" "
 "title=\"Confirm Registration\"/>"
 msgstr ""
-"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm button\" "
-"title=\"Confirm Registration\"/>"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -226,7 +207,7 @@ msgstr "<i class=\"fa fa-info-circle mr-2\"></i>이 행사와 모든 회의는 <
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"fa fa-level-up fa-rotate-90\" title=\"Confirmed\"/>"
-msgstr "<i class=\"fa fa-level-up fa-rotate-90\" title=\"Confirmed\"/>"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_form_quick_create
@@ -241,7 +222,7 @@ msgstr ""
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"fa fa-map-marker\" title=\"Location\"/>"
-msgstr "<i class=\"fa fa-map-marker\" title=\"위치\"/>"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -249,8 +230,6 @@ msgid ""
 "<i class=\"fa fa-user-plus fa-3x\" role=\"img\" aria-label=\"Attended "
 "button\" title=\"Confirm Attendance\"/>"
 msgstr ""
-"<i class=\"fa fa-user-plus fa-3x\" role=\"img\" aria-label=\"Attended "
-"button\" title=\"Confirm Attendance\"/>"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -258,8 +237,6 @@ msgid ""
 "<i class=\"fa fa-user-plus\" role=\"img\" aria-label=\"Attended button\" "
 "title=\"Confirm Attendance\"/>"
 msgstr ""
-"<i class=\"fa fa-user-plus\" role=\"img\" aria-label=\"Attended button\" "
-"title=\"Confirm Attendance\"/>"
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
@@ -284,14 +261,12 @@ msgid ""
 "<span class=\"text-muted\" states=\"done\">Attended</span>\n"
 "                                    <span class=\"text-muted\" states=\"cancel\">Canceled</span>"
 msgstr ""
-"<span class=\"text-muted\" states=\"done\">참석</span>\n"
-"                                    <span class=\"text-muted\" states=\"cancel\">취소</span>"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "<span>John Doe</span>"
-msgstr "<span>홍길동</span>"
+msgstr ""
 
 #. module: event
 #: model:mail.template,body_html:event.event_reminder
@@ -728,7 +703,7 @@ msgstr ""
 #: model:ir.model.fields,help:event.field_event_type_ticket__description
 msgid ""
 "A description of the ticket that you want to communicate to your customers."
-msgstr "고객에게 전달하려는 티켓에 대한 내용입니다."
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_needaction
@@ -796,7 +771,7 @@ msgstr "관리자"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_exhibitor
 msgid "Advanced Sponsors"
-msgstr "상위 후원사"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__after_sub
@@ -813,7 +788,7 @@ msgstr "행사 후"
 #. module: event
 #: model:event.tag.category,name:event.event_tag_category_1
 msgid "Age"
-msgstr "연령"
+msgstr ""
 
 #. module: event
 #: model:event.event,name:event.event_6
@@ -826,8 +801,6 @@ msgid ""
 "And this time, we go fully ONLINE! Meet us in our live streams from the comfort of your house.<br>\n"
 "        Special discount codes will be handed out during the various streams, make sure to be there on time."
 msgstr ""
-"또한 이번에는 완전히 온라인으로 진행됩니다! 집에서 편안하게 실시간 스트리밍으로 만나보세요.<br>\n"
-"        다양한 스트리밍 방송 중에 특별 할인 코드가 안내될 예정이오니 본 방송을 놓치지 마시기 바랍니다."
 
 #. module: event
 #: model:event.stage,name:event.event_stage_announced
@@ -844,7 +817,7 @@ msgstr "보관됨"
 msgid ""
 "Around one hundred ballons will simultaneously take flight and turn the sky "
 "into a beautiful canvas of colours."
-msgstr "백여 개의 풍선이 한꺼번에 날아올라서 하늘을 아름다운 색채의 캔버스로 변신시킵니다."
+msgstr ""
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -917,13 +890,13 @@ msgstr "참석자"
 msgid ""
 "Autoconfirm Registrations. Registrations will automatically be confirmed "
 "upon creation."
-msgstr "등록 자동 확인. 등록하시게 되면 자동으로 등록이 확인됩니다."
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__auto_confirm
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Autoconfirmation"
-msgstr "자동 확인"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__auto_confirm
@@ -941,7 +914,7 @@ msgstr "사용 가능 좌석"
 msgid ""
 "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show"
 " of the century during our three day event."
-msgstr "바 파이터스, 레드 슬리퍼, 링크 플로이드 등의 밴드가 3일 간의 행사 기간 동안 세기의 쇼를 선사합니다."
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_barcode
@@ -980,29 +953,28 @@ msgid ""
 "Bloem brings honesty and seriousness to wood industry while helping "
 "customers deal with trees, flowers and fungi."
 msgstr ""
-"Bloem은 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 있을 뿐만 아니라, 목재 가공업계에 신뢰와 진심을 담아드리고 있습니다."
 
 #. module: event
 #: model:event.stage,name:event.event_stage_booked
 msgid "Booked"
-msgstr "예약됨"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "Booked By"
-msgstr "예약자"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__partner_id
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "Booked by"
-msgstr "예약자"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_booth
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Booth Management"
-msgstr "부스 관리"
+msgstr ""
 
 #. module: event
 #: model:event.event,subtitle:event.event_5
@@ -1071,12 +1043,12 @@ msgstr "의사소통"
 #. module: event
 #: model:ir.model.fields,help:event.field_event_mail__mail_registration_ids
 msgid "Communication related to event registrations"
-msgstr "행사 등록 관련 커뮤니케이션"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Community Chat Rooms"
-msgstr "커뮤니티 채팅방"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__company_id
@@ -1128,7 +1100,7 @@ msgstr "승인"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "Confirm Attendance"
-msgstr "참석 확인"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -1156,27 +1128,27 @@ msgstr "국가"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Create Booths and manage their reservations"
-msgstr "부스 생성 및 예약 관리"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_view
 msgid "Create an Event"
-msgstr "행사 만들기"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_stage_action
 msgid "Create an Event Stage"
-msgstr "행사 페이지 만들기"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_tag_category_action_tree
 msgid "Create an Event Tag Category"
-msgstr "행사 태그 카테고리 만들기"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
 msgid "Create an Event Template"
-msgstr "행사 서식 만들기"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__create_uid
@@ -1211,7 +1183,7 @@ msgstr "작성일자"
 #. module: event
 #: model:event.tag,name:event.event_tag_category_2_tag_1
 msgid "Culture"
-msgstr "문화"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event_registration.py:0
@@ -1245,8 +1217,6 @@ msgid ""
 "you will not be able to sell tickets anymore. Set 0 to ignore this rule set "
 "as unlimited."
 msgstr ""
-"사용할 수 있는 티켓 수를 지정합니다. 등록자가 너무 많은 경우 더 이상 티켓을 판매할 수 없습니다. 이 규칙을 무시하고 무제한으로 "
-"하려면 0으로 설정하시기 바랍니다."
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__description
@@ -1276,7 +1246,7 @@ msgstr "더 알아보기"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_meet
 msgid "Discussion Rooms"
-msgstr "회의실"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__display_name
@@ -1296,7 +1266,7 @@ msgstr "표시명"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Display Sponsors and Exhibitors on your event pages"
-msgstr "행사 페이지에 후원사 및 전시업체 표시"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__sequence
@@ -1340,12 +1310,12 @@ msgstr "종료일 위치"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__pipe_end
 msgid "End Stage"
-msgstr "종료 단계"
+msgstr ""
 
 #. module: event
 #: model:event.stage,name:event.event_stage_done
 msgid "Ended"
-msgstr "종료"
+msgstr ""
 
 #. module: event
 #: model:event.event,subtitle:event.event_2
@@ -1381,7 +1351,7 @@ msgstr "행사 범주"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_view_form
 msgid "Event Category Tag"
-msgstr "행사 카테고리 태그"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_end_date
@@ -1391,7 +1361,7 @@ msgstr "행사 종료일"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Event Gamification"
-msgstr "행사 업적 시스템"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
@@ -1443,29 +1413,17 @@ msgid ""
 "  - or the responsible of the event,\n"
 "  - or the last writer of the template.\n"
 msgstr ""
-"행사 스케줄러:\n"
-"  - 행사: %(event_name)s (%(event_id)s)\n"
-"  - 예약일: %(date)s\n"
-"  - 서식: %(template_name)s (%(template_id)s)\n"
-"\n"
-"오류로 인한 실패:\n"
-"  - %(error)s\n"
-"\n"
-"본 이메일 수신자는 다음 중 하나에 해당함:\n"
-"  - 행사 주최자,\n"
-"  - 또는 행사 담당자,\n"
-"  - 또는 서식 최근 편집자.\n"
 
 #. module: event
 #: model:ir.model,name:event.model_event_stage
 msgid "Event Stage"
-msgstr "행사 단계"
+msgstr ""
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_stage_action
 #: model:ir.ui.menu,name:event.event_stage_menu
 msgid "Event Stages"
-msgstr "행사 단계"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_begin_date
@@ -1476,19 +1434,19 @@ msgstr "행사 시작일"
 #. module: event
 #: model:ir.model,name:event.model_event_tag
 msgid "Event Tag"
-msgstr "행사 태그"
+msgstr ""
 
 #. module: event
 #: model:ir.model,name:event.model_event_tag_category
 msgid "Event Tag Category"
-msgstr "행사 태그 카테고리"
+msgstr ""
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_tag_category_action_tree
 #: model:ir.ui.menu,name:event.menu_event_category
 #: model_terms:ir.ui.view,arch_db:event.event_tag_view_tree
 msgid "Event Tags Categories"
-msgstr "행사 태그 카테고리"
+msgstr ""
 
 #. module: event
 #: model:ir.model,name:event.model_event_type
@@ -1496,25 +1454,25 @@ msgstr "행사 태그 카테고리"
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_tree
 msgid "Event Template"
-msgstr "행사 서식"
+msgstr ""
 
 #. module: event
 #: model:ir.model,name:event.model_event_type_ticket
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_form_from_type
 msgid "Event Template Ticket"
-msgstr "행사 티켓 서식"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_tree_from_type
 msgid "Event Template Tickets"
-msgstr "행사 티켓 서식"
+msgstr ""
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_type
 #: model:ir.ui.menu,name:event.menu_event_type
 #: model_terms:ir.ui.view,arch_db:event.event_type_view_search
 msgid "Event Templates"
-msgstr "행사 서식"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
@@ -1534,7 +1492,7 @@ msgstr "행사 티켓"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "Event Ticket For"
-msgstr "다음 행사 티켓"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_mail__event_type_id
@@ -1544,14 +1502,14 @@ msgstr "행사 유형"
 #. module: event
 #: model:ir.actions.act_window,name:event.event_registration_action_tree
 msgid "Event registrations"
-msgstr "행사 등록"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_stage_action
 msgid ""
 "Event stages are used to track the progress of an Event from its origin "
 "until its conclusion."
-msgstr "행사 단계를 이용하여 행사의 시작부터 종료까지 진행 상황을 추적합니다."
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
@@ -1573,7 +1531,7 @@ msgstr "행사 : 등록"
 #. module: event
 #: model:mail.template,name:event.event_registration_mail_template_badge
 msgid "Event: Registration Badge"
-msgstr "행사: 등록 배지"
+msgstr ""
 
 #. module: event
 #: model:mail.template,name:event.event_reminder
@@ -1608,7 +1566,7 @@ msgstr "행사  메일 계획표"
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_tree
 msgid "Events Stage"
-msgstr "행사 단계"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_type__auto_confirm
@@ -1622,7 +1580,7 @@ msgstr "행사 및 등록이 생성 시 자동으로 확인되므로  간단한 
 msgid ""
 "Events will automatically be moved into this stage when they are finished. "
 "The event moved into this stage will automatically be set as green."
-msgstr "행사가 종료되면 자동으로 이 단계로 이동합니다. 행사가 이 단계로 이동하면 자동으로 초록색으로 설정됩니다."
+msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -1657,7 +1615,7 @@ msgstr "예상됨"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
 msgid "Expected Attendees"
-msgstr "예상 참석자"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
@@ -1672,7 +1630,7 @@ msgstr "라이브 음악, 현지 음식 및 음료를 경험하십시오."
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_foldable_badge
 msgid "Foldable Badge"
-msgstr "접이식 배지"
+msgstr ""
 
 #. module: event
 #: model:mail.template,report_name:event.event_registration_mail_template_badge
@@ -1683,7 +1641,7 @@ msgstr ""
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_foldable_badge
 msgid "Foldable Badge Example"
-msgstr "접이식 배지 예"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__fold
@@ -1728,13 +1686,13 @@ msgstr "각 행사에 대해 최대 등록 좌석수(참석자 수)를 정의 �
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_1
 msgid "For only 10, you gain access to catering. Yum yum."
-msgstr "단 10불만으로 케이터링 서비스를 이용하실 수 있습니다. 맛있게 드세요!"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "Foster interactions between attendees by creating virtual conference rooms"
-msgstr "가상 회의실을 만들어서 참석자 간에 소통할 수 있도록 합니다."
+msgstr ""
 
 #. module: event
 #: model:event.event.ticket,name:event.event_0_ticket_0
@@ -1749,19 +1707,19 @@ msgstr ""
 #. module: event
 #: model:event.stage,description:event.event_stage_new
 msgid "Freshly created"
-msgstr "새로 생성됨"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_registration
 msgid ""
 "From this dashboard you can report, analyze and detect trends regarding your"
 " event registrations."
-msgstr "이 현황판에서 행사 등록과 관련한 추세를 보고, 분석 및 감지할 수 있습니다."
+msgstr ""
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_full_page_ticket
 msgid "Full Page Ticket"
-msgstr "전체 페이지 티켓"
+msgstr ""
 
 #. module: event
 #: model:mail.template,report_name:event.event_subscription
@@ -1772,12 +1730,12 @@ msgstr ""
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_full_page_ticket
 msgid "Full Page Ticket Example"
-msgstr "전체 페이지 티켓 예시"
+msgstr ""
 
 #. module: event
 #: model:event.stage,description:event.event_stage_done
 msgid "Fully ended"
-msgstr "완료"
+msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
@@ -1803,7 +1761,7 @@ msgstr "영감을 얻으십시오 • 연결 상태를 유지하십시오 • �
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_state
 msgid "Global communication Status"
-msgstr "글로벌 커뮤니케이션 현황"
+msgstr ""
 
 #. module: event
 #: model:event.event,name:event.event_1
@@ -1815,7 +1773,7 @@ msgstr "훌륭한 리노 발롱 경주"
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 #, python-format
 msgid "Great! Now all you have to do is wait for your attendees to show up!"
-msgstr "잘 하셨습니다! 이제 참석자가 오는 것을 기다리기만 하면 됩니다!"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__legend_done
@@ -1871,22 +1829,22 @@ msgstr "시간"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (1)"
-msgstr "접는 방법 (1)"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (2)"
-msgstr "접는 방법 (2)"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (3)"
-msgstr "접는 방법 (3)"
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (4)"
-msgstr "접는 방법 (4)"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__id
@@ -1935,12 +1893,12 @@ msgstr "이 옵션을 선택하면 일부 정보가 전달 오류를 생성합�
 #: model:ir.model.fields,help:event.field_event_event__start_sale_datetime
 msgid ""
 "If ticketing is used, contains the earliest starting sale date of tickets."
-msgstr "발권 기능을 사용하는 경우, 가장 빠른 티켓 판매 개시일이 포함됩니다."
+msgstr ""
 
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "If you don't have this ticket, you will <b>not</b> be allowed entry!"
-msgstr "이 티켓을 소지하지 않은 경우 입장이 <b>불가</b>합니다!"
+msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_5
@@ -1958,7 +1916,7 @@ msgstr "즉시"
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "Important ticket information"
-msgstr "티켓 관련 중요 안내 사항"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event_stage.py:0
@@ -1995,12 +1953,12 @@ msgstr "CRM, 영업 관리 소개"
 #: code:addons/event/models/event_registration.py:0
 #, python-format
 msgid "Invalid event / ticket choice"
-msgstr "선택한 행사 / 티켓이 유효하지 않습니다."
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__sale_available
 msgid "Is Available"
-msgstr "사용할 수 있습니다"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__is_expired
@@ -2010,7 +1968,7 @@ msgstr "만료 여부"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_finished
 msgid "Is Finished"
-msgstr "종료됨"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_is_follower
@@ -2026,7 +1984,7 @@ msgstr "하루 여부"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_ongoing
 msgid "Is Ongoing"
-msgstr "진행 중"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_type__seats_max
@@ -2225,7 +2183,7 @@ msgstr "마케팅"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
 msgid "Maximum"
-msgstr "최대"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_limited
@@ -2280,7 +2238,7 @@ msgstr "월"
 #. module: event
 #: model:event.tag,name:event.event_tag_category_2_tag_2
 msgid "Music"
-msgstr "음악"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__my_activity_date_deadline
@@ -2310,7 +2268,7 @@ msgstr "신규"
 #: model:ir.model.fields,field_description:event.field_event_event__activity_calendar_event_id
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "다음 활동 캘린더 행사"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_date_deadline
@@ -2487,7 +2445,7 @@ msgstr "OpenElec Applications는 행사를 취소하거나 이름 변경 또는 
 #. module: event
 #: model:event.event,name:event.event_7
 msgid "OpenWood Collection Online Reveal"
-msgstr "OpenWood 컬렉션 온라인 공개"
+msgstr ""
 
 #. module: event
 #: model:res.partner,website_short_description:event.res_partner_event_2
@@ -2633,7 +2591,7 @@ msgstr "등록 날짜"
 #. module: event
 #: model:res.groups,name:event.group_event_registration_desk
 msgid "Registration Desk"
-msgstr "등록 데스크"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__end_sale_datetime
@@ -3087,7 +3045,7 @@ msgstr ""
 #: code:addons/event/models/event_event.py:0
 #, python-format
 msgid "This operator is not supported"
-msgstr "이 연산자는 지원되지 않습니다."
+msgstr ""
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
@@ -3107,8 +3065,12 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__ticket_instructions
 #: model:ir.model.fields,field_description:event.field_event_type__ticket_instructions
-#: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Ticket Instructions"
+msgstr ""
+
+#. module: event
+#: model_terms:ir.ui.view,arch_db:event.view_event_form
+msgid "Ticket Intructions"
 msgstr ""
 
 #. module: event
@@ -3301,12 +3263,12 @@ msgstr "귀빈"
 #: code:addons/event/models/event_event.py:0
 #, python-format
 msgid "Value should be True or False (not %s)"
-msgstr "값은 True 또는 False 값이어야 합니다 (%s 아님)"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__address_id
 msgid "Venue"
-msgstr "행사장"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event_mail.py:0
@@ -3371,7 +3333,7 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__is_ongoing
 msgid "Whether event has begun"
-msgstr "행사 시작 여부"
+msgstr ""
 
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_2

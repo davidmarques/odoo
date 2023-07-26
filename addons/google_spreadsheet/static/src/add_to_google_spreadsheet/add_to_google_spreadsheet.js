@@ -4,10 +4,7 @@ import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import { Domain } from "@web/core/domain";
 
-import Dialog from 'web.OwlDialog';
-
 const { Component } = owl;
-const { useState } = owl.hooks;
 const favoriteMenuRegistry = registry.category("favoriteMenu");
 
 /**
@@ -21,12 +18,6 @@ const favoriteMenuRegistry = registry.category("favoriteMenu");
 export class AddToGoogleSpreadsheet extends Component {
     setup() {
         this.orm = useService("orm");
-
-        this.state = useState({
-            showDialog: false,
-            url: false,
-            formula: false,
-        });
     }
 
     //---------------------------------------------------------------------
@@ -44,12 +35,6 @@ export class AddToGoogleSpreadsheet extends Component {
             [resModel, domainAsString, groupBy, viewId]
         );
 
-        if (result.deprecated) {
-            this.state.url = result.url;
-            this.state.formula = result.formula;
-            this.state.showDialog = true;
-            return;
-        }
         if (result.url) {
             // According to MDN doc, one should not use _blank as title.
             // todo: find a good name for the new window
@@ -58,7 +43,6 @@ export class AddToGoogleSpreadsheet extends Component {
     }
 }
 
-AddToGoogleSpreadsheet.components = { Dialog };
 AddToGoogleSpreadsheet.template = "google_spreadsheet.AddToGoogleSpreadsheet";
 
 const addToGoogleSpreadsheetItem = {

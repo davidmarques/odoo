@@ -7,9 +7,8 @@
 # ExcaliberX <excaliberx@gmail.com>, 2021
 # Yihya Hugirat <hugirat@gmail.com>, 2021
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2021
+# Lilach Gilliam <lilach.gilliam@gmail.com>, 2021
 # Jonathan Spier, 2021
-# Lilach Gilliam <lilach.gilliam@gmail.com>, 2022
-# Ha Ketem <haketem@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -17,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:28+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
-"Last-Translator: Ha Ketem <haketem@gmail.com>, 2022\n"
-"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
+"Last-Translator: Jonathan Spier, 2021\n"
+"Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -41,44 +40,44 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_configurator__event_booth_ids
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_registration__event_booth_id
 msgid "Booth"
-msgstr "דוכן"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_configurator__event_booth_category_id
 msgid "Booth Category"
-msgstr "קטגוריית דוכן"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,help:event_booth_sale.field_event_booth_configurator__event_booth_category_available_ids
 msgid "Booth Category for which booths are still available. Used in frontend"
-msgstr "קטגוריית דוכן לדוכנים פנויים. לשימוש בתצוגה למשתמש קצה"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order__event_booth_count
 msgid "Booth Count"
-msgstr "מספר דוכנים"
+msgstr ""
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_category_view_form
 msgid "Booth Details"
-msgstr "פרטי דוכן"
+msgstr ""
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_registration_view_form
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_registration_view_tree
 msgid "Booth Registration"
-msgstr "הרשמה לדוכן"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order__event_booth_ids
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.sale_order_view_form
 msgid "Booths"
-msgstr "דוכנים"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__event_booth_category_id
 msgid "Booths Category"
-msgstr "קטגוריית דוכנים"
+msgstr ""
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_configurator_view_form
@@ -87,12 +86,12 @@ msgstr "בטל"
 
 #. module: event_booth_sale
 msgid "Configure an event booth"
-msgstr "הגדרת דוכן אירוע"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__event_booth_ids
 msgid "Confirmed Booths"
-msgstr "דוכנים מאושרים"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__event_booth_registration_ids
@@ -169,38 +168,38 @@ msgstr "אירוע"
 #: model:ir.model.fields.selection,name:event_booth_sale.selection__product_template__detailed_type__event_booth
 #: model:product.product,name:event_booth_sale.product_product_event_booth
 msgid "Event Booth"
-msgstr "דוכן אירוע"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_event_booth_category
 msgid "Event Booth Category"
-msgstr "קטגוריית דוכן אירוע"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_configurator__event_booth_category_available_ids
 msgid "Event Booth Category Available"
-msgstr "קטגוריית דוכן אירוע פנוי"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_event_booth_configurator
 msgid "Event Booth Configurator"
-msgstr "מגדיר דוכן אירוע"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_event_booth_registration
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__event_booth_registration_ids
 msgid "Event Booth Registration"
-msgstr "הרשמת דוכן אירוע"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_event_type_booth
 msgid "Event Booth Template"
-msgstr "תבנית דוכן אירוע"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__sale_order_line_id
 msgid "Final Sale Order Line"
-msgstr "שורת הזמנה סופית"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_configurator__id
@@ -216,7 +215,7 @@ msgstr "תמונה"
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__is_event_booth
 msgid "Is Event Booth"
-msgstr "האם דוכן האירוע"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__is_paid
@@ -264,7 +263,7 @@ msgstr "שולם"
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__event_booth_pending_ids
 msgid "Pending Booths"
-msgstr "דוכנים ממתינים"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__price
@@ -307,12 +306,12 @@ msgstr "הרשמות"
 #: code:addons/event_booth_sale/models/sale_order_line.py:0
 #, python-format
 msgid "Registrations from the same Order Line must belong to a single event."
-msgstr "שורת הזמנה יכולה להיות משוייכת לאירוע אחד בלבד."
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__sale_order_line_registration_ids
 msgid "SO Lines with reservations"
-msgstr "שורות הזמנה עם הזמנות"
+msgstr ""
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_view_form_from_event
@@ -338,7 +337,7 @@ msgstr "שורת הזמנת לקוח"
 #. module: event_booth_sale
 #: model:ir.actions.act_window,name:event_booth_sale.event_booth_configurator_action
 msgid "Select an event booth"
-msgstr "בחר דוכן ארוע"
+msgstr ""
 
 #. module: event_booth_sale
 #: code:addons/event_booth_sale/models/sale_order_line.py:0
@@ -346,12 +345,12 @@ msgstr "בחר דוכן ארוע"
 msgid ""
 "The following booths are unavailable, please remove them to continue : "
 "%(booth_names)s"
-msgstr "הדוכנים הבאים אינם פנויים, נא להסירם כדי להמשיך: %(booth_names)s"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:ir.model.constraint,message:event_booth_sale.constraint_event_booth_registration_unique_registration
 msgid "There can be only one registration for a booth by sale order line"
-msgstr "לכל שורה הזמנה יכולה להיות רק הזמנת הרשמה אחת בלבד"
+msgstr ""
 
 #. module: event_booth_sale
 #: model:product.product,uom_name:event_booth_sale.product_product_event_booth
@@ -361,7 +360,7 @@ msgstr "יחידה"
 #. module: event_booth_sale
 #: model:ir.model.fields,help:event_booth_sale.field_sale_order_line__event_booth_pending_ids
 msgid "Used to create registration when providing the desired event booth."
-msgstr "משמש ליצירת הרשמה כשמספקים דוכן אירוע רצוי."
+msgstr ""
 
 #. module: event_booth_sale
 #: code:addons/event_booth_sale/models/event_booth.py:0
@@ -369,13 +368,13 @@ msgstr "משמש ליצירת הרשמה כשמספקים דוכן אירוע ר
 msgid ""
 "You can't delete the following booths as they are linked to sales orders: "
 "%(booths)s"
-msgstr "אי אפשר למחוק את הדוכנים הבאים, כי הם קשורים להזמנה פעילה: %(booths)s"
+msgstr ""
 
 #. module: event_booth_sale
 #: code:addons/event_booth_sale/wizard/event_booth_configurator.py:0
 #, python-format
 msgid "You have to select at least one booth."
-msgstr "צריך לבחור דוכן אחד לפחות."
+msgstr ""
 
 #. module: event_booth_sale
 #: code:addons/event_booth_sale/models/event_booth_registration.py:0
@@ -383,4 +382,4 @@ msgstr "צריך לבחור דוכן אחד לפחות."
 msgid ""
 "Your order has been cancelled because the following booths have been "
 "reserved"
-msgstr "הזמנתך בוטל בגלל שהדוכנים להלן כבר הוזמנו"
+msgstr ""

@@ -436,7 +436,7 @@ FormRenderer.include({
         };
         var name = node.attrs.name;
         if (node.attrs.string) {
-            name = JSON.stringify(node.attrs);
+            name = name + '_' + node.attrs.string;
         }
 
         this.trigger_up('activeBarcode', {

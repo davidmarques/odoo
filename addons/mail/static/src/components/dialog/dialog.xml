@@ -2,7 +2,7 @@
 <templates xml:space="preserve">
 
     <t t-name="mail.Dialog" owl="1">
-        <div class="o_Dialog modal">
+        <div class="o_Dialog">
             <t t-if="dialog">
                 <t
                     t-component="{{ dialog.record['constructor'].name }}"

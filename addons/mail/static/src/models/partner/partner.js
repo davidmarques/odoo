@@ -188,11 +188,8 @@ function factory(dependencies) {
                     // partners (livechat guests), public partners (technical)
                     continue;
                 }
-                if (!partner.name) {
-                    continue;
-                }
                 if (
-                    (cleanSearchTerm(partner.name).includes(cleanedSearchTerm)) ||
+                    (partner.nameOrDisplayName && cleanSearchTerm(partner.nameOrDisplayName).includes(cleanedSearchTerm)) ||
                     (partner.email && cleanSearchTerm(partner.email).includes(cleanedSearchTerm))
                 ) {
                     if (partner.user) {
@@ -305,8 +302,8 @@ function factory(dependencies) {
                         return 1;
                     }
                 }
-                const cleanedAName = cleanSearchTerm(a.name || '');
-                const cleanedBName = cleanSearchTerm(b.name || '');
+                const cleanedAName = cleanSearchTerm(a.nameOrDisplayName || '');
+                const cleanedBName = cleanSearchTerm(b.nameOrDisplayName || '');
                 if (cleanedAName.startsWith(cleanedSearchTerm) && !cleanedBName.startsWith(cleanedSearchTerm)) {
                     return -1;
                 }

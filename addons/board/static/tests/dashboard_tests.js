@@ -27,7 +27,7 @@ odoo.define("board.dashboard_tests", function (require) {
     const { mouseEnter, triggerEvent } = require("@web/../tests/helpers/utils");
     const LegacyFavoriteMenu = require("web.FavoriteMenu");
     const LegacyAddToBoard = require("board.AddToBoardMenu");
-    const { addToBoardItem } = require("@board/add_to_board/add_to_board");
+    const { AddToBoard } = require("@board/add_to_board/add_to_board");
 
     const { createWebClient, doAction } = require("@web/../tests/webclient/helpers");
     var createView = testUtils.createView;
@@ -85,7 +85,11 @@ odoo.define("board.dashboard_tests", function (require) {
             LegacyFavoriteMenu.registry.add("add-to-board-menu", LegacyAddToBoard, 10);
             favoriteMenuRegistry.add(
                 "add-to-board",
-                addToBoardItem,
+                {
+                    Component: AddToBoard,
+                    groupNumber: 4,
+                    isDisplayed: ({ config }) => config.actionType === "ir.actions.act_window",
+                },
                 { sequence: 10 }
             );
             serverData = { models: this.data };
@@ -902,36 +906,6 @@ odoo.define("board.dashboard_tests", function (require) {
         testUtils.mock.unpatch(ListController);
     });
 
-    QUnit.test("add to dashboard with no action id", async function (assert) {
-        assert.expect(2);
-
-        serverData.views = {
-            "partner,false,pivot": '<pivot><field name="foo"/></pivot>',
-            "partner,false,search": '<search/>',
-        };
-        registry.category("services").add("user", makeFakeUserService());
-        const webClient = await createWebClient({ serverData });
-
-        await doAction(webClient, {
-            id: false,
-            res_model: "partner",
-            type: "ir.actions.act_window",
-            views: [[false, "pivot"]],
-        });
-        await toggleFavoriteMenu(webClient.el);
-        assert.containsNone(webClient, ".o_add_to_board");
-
-        // Sanity check
-        await doAction(webClient, {
-            id: 1,
-            res_model: "partner",
-            type: "ir.actions.act_window",
-            views: [[false, "pivot"]],
-        });
-        await toggleFavoriteMenu(webClient.el);
-        assert.containsOnce(webClient, ".o_add_to_board");
-    });
-
     QUnit.test("save two searches to dashboard", async function (assert) {
         // the second search saved should not be influenced by the first
         assert.expect(2);
@@ -1313,7 +1287,7 @@ odoo.define("board.dashboard_tests", function (require) {
 
         const mockRPC = (route) => {
             if (route === "/board/add_to_dashboard") {
-                assert.step("add to board");
+                assert.step("add to board")
                 return Promise.resolve(true);
             }
         };

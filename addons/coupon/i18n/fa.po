@@ -4,13 +4,12 @@
 # 
 # Translators:
 # Mohsen Mohammadi <iammohsen.123@gmail.com>, 2022
-# M.Hossein S.Farvashani <Farvashani@gmail.com>, 2022
 # سید محمد آذربرا <mohammadazarbara98@gmail.com>, 2022
-# Farid Hariri <fhari1234@gmail.com>, 2022
+# M.Hossein S.Farvashani <Farvashani@gmail.com>, 2022
 # Hamid Darabi, 2022
+# Far Har <fhari1234@gmail.com>, 2022
 # Hamed Mohammadi <hamed@dehongi.com>, 2022
 # Martin Trigaux, 2022
-# Hanna Kheradroosta, 2022
 # 
 msgid ""
 msgstr ""
@@ -18,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:28+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
-"Last-Translator: Hanna Kheradroosta, 2022\n"
-"Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
+"Last-Translator: Martin Trigaux, 2022\n"
+"Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -92,8 +91,6 @@ msgid ""
 "<span class=\"o_form_label oe_inline\"> Days</span> <span "
 "class=\"oe_grey\">if 0, infinite use</span>"
 msgstr ""
-"<span class=\"o_form_label oe_inline\"> روز</span> <span "
-"class=\"oe_grey\">اگر 0، استفاده بی نهایت</span>"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
@@ -182,12 +179,12 @@ msgstr "قابلیت کاربرد"
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
 msgid "Apply Discount"
-msgstr "اعمال تخفیف"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_program__promo_applicability__on_current_order
 msgid "Apply On Current Order"
-msgstr "اعمال روی سفارش فعلی"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_promo_program_form
@@ -199,7 +196,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_promo_program_search
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_search
 msgid "Archived"
-msgstr "بایگانی شده"
+msgstr "بایگانی‌شده"
 
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_program__promo_code_usage__no_code_needed
@@ -217,13 +214,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__rule_partners_domain
 #: model:ir.model.fields,field_description:coupon.field_coupon_rule__rule_partners_domain
 msgid "Based on Customers"
-msgstr "بر اساس مشتریان"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__rule_products_domain
 #: model:ir.model.fields,field_description:coupon.field_coupon_rule__rule_products_domain
 msgid "Based on Products"
-msgstr "بر اساس محصولات"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.actions.act_window,help:coupon.coupon_program_action_promo_program
@@ -247,7 +244,7 @@ msgstr "لغو"
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_coupon__state__cancel
 msgid "Cancelled"
-msgstr "لغو شده"
+msgstr "لغوشده"
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_coupon__code
@@ -273,67 +270,67 @@ msgstr "نگارش ایمیل"
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
 msgid "Conditions"
-msgstr "شرایط"
+msgstr "شروط"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.report_coupon
 msgid "Congratulations"
-msgstr "تبریک می گویم"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model,name:coupon.model_coupon_coupon
 msgid "Coupon"
-msgstr "کوپن"
+msgstr ""
 
 #. module: coupon
 #: model:ir.actions.report,name:coupon.report_coupon_code
 msgid "Coupon Code"
-msgstr "کد کوپن"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__coupon_count
 msgid "Coupon Count"
-msgstr "تعداد کوپن"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model,name:coupon.model_coupon_program
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_program__program_type__coupon_program
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
 msgid "Coupon Program"
-msgstr "برنامه کوپن"
+msgstr ""
 
 #. module: coupon
 #: model:ir.actions.act_window,name:coupon.coupon_program_action_coupon_program
 msgid "Coupon Programs"
-msgstr "برنامه های کوپن"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model,name:coupon.model_coupon_reward
 msgid "Coupon Reward"
-msgstr "پاداش کوپن"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model,name:coupon.model_coupon_rule
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__rule_id
 msgid "Coupon Rule"
-msgstr "قوانین کوپن"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_promo_program_form
 msgid "Coupon Validity"
-msgstr "اعتبار کوپن"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_program__rule_date_to
 #: model:ir.model.fields,help:coupon.field_coupon_rule__rule_date_to
 msgid "Coupon program end date"
-msgstr "تاریخ پایان برنامه کوپن"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_program__rule_date_from
 #: model:ir.model.fields,help:coupon.field_coupon_rule__rule_date_from
 msgid "Coupon program start date"
-msgstr "تاریخ شروع برنامه کوپن"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_program__sequence
@@ -353,7 +350,7 @@ msgstr ""
 #: model:ir.cron,cron_name:coupon.expire_coupon_cron
 #: model:ir.cron,name:coupon.expire_coupon_cron
 msgid "Coupon: expire coupon based on date"
-msgstr "کوپن: کوپن منقضی بر اساس تاریخ"
+msgstr ""
 
 #. module: coupon
 #: model:ir.actions.act_window,name:coupon.coupon_action
@@ -362,17 +359,17 @@ msgstr "کوپن: کوپن منقضی بر اساس تاریخ"
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_view_form
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_view_tree
 msgid "Coupons"
-msgstr "کوپن ها"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.actions.act_window,help:coupon.coupon_program_action_coupon_program
 msgid "Create a new coupon program"
-msgstr "یک برنامه کوپن جدید ایجاد کنید"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.actions.act_window,help:coupon.coupon_program_action_promo_program
 msgid "Create a new promotion program"
-msgstr "یک برنامه تبلیغاتی جدید ایجاد کنید"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_coupon__create_uid
@@ -381,7 +378,7 @@ msgstr "یک برنامه تبلیغاتی جدید ایجاد کنید"
 #: model:ir.model.fields,field_description:coupon.field_coupon_reward__create_uid
 #: model:ir.model.fields,field_description:coupon.field_coupon_rule__create_uid
 msgid "Created by"
-msgstr "ایجاد شده توسط"
+msgstr "ایجادشده توسط"
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_coupon__create_date
@@ -407,7 +404,6 @@ msgstr "مشتری"
 #: model:ir.model.fields,help:coupon.field_coupon_reward__reward_product_uom_id
 msgid "Default unit of measure used for all stock operations."
 msgstr ""
-"واحد اندازه گیری پیش فرض برای همه عملیات انتقال موجودی استفاده می شود."
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__discount_percentage
@@ -429,19 +425,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__discount_apply_on
 #: model:ir.model.fields,field_description:coupon.field_coupon_reward__discount_apply_on
 msgid "Discount Apply On"
-msgstr "اعمال تخفیف روی"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__discount_max_amount
 #: model:ir.model.fields,field_description:coupon.field_coupon_reward__discount_max_amount
 msgid "Discount Max Amount"
-msgstr "حداکثر مقدار تخفیف"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__discount_type
 #: model:ir.model.fields,field_description:coupon.field_coupon_reward__discount_type
 msgid "Discount Type"
-msgstr "نوع تخفیف"
+msgstr ""
 
 #. module: coupon
 #: code:addons/coupon/models/coupon_reward.py:0
@@ -526,12 +522,12 @@ msgstr "ایجاد"
 #: model:ir.model,name:coupon.model_coupon_generate_wizard
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_coupon_program_form
 msgid "Generate Coupon"
-msgstr "ایجاد کوپن"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_generate_view_form
 msgid "Generate Coupons"
-msgstr "ایجاد کوپن ها"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.actions.act_window,help:coupon.coupon_program_action_coupon_program
@@ -539,13 +535,11 @@ msgid ""
 "Generate and share coupon codes with your customers to get discounts or free"
 " products."
 msgstr ""
-"برای دریافت تخفیف یا محصولات رایگان، کدهای کوپن را با مشتریان خود ایجاد و به"
-" اشتراک بگذارید."
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__coupon_ids
 msgid "Generated Coupons"
-msgstr "ایجاد کوپن ها"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_generate_wizard__generation_type
@@ -602,7 +596,7 @@ msgstr "آخرین به‌روز‌رسانی توسط"
 #: model:ir.model.fields,field_description:coupon.field_coupon_reward__write_date
 #: model:ir.model.fields,field_description:coupon.field_coupon_rule__write_date
 msgid "Last Updated on"
-msgstr "آخرین بروز رسانی در تاریخ"
+msgstr "آخرین به روز رسانی در"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.report_coupon
@@ -612,7 +606,7 @@ msgstr "لوگو"
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
 msgid "Max Discount Amount"
-msgstr "حداکثر مقدار تخفیف"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__maximum_use_number
@@ -623,7 +617,7 @@ msgstr ""
 #: model:ir.model.fields,help:coupon.field_coupon_program__discount_max_amount
 #: model:ir.model.fields,help:coupon.field_coupon_reward__discount_max_amount
 msgid "Maximum amount of discount that can be provided"
-msgstr "حداکثر میزان تخفیف قابل ارائه"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_program__maximum_use_number
@@ -674,12 +668,12 @@ msgstr "نام"
 #: model:ir.model.fields,field_description:coupon.field_coupon_generate_wizard__nbr_coupons
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_generate_wizard__generation_type__nbr_coupon
 msgid "Number of Coupons"
-msgstr "تعداد کوپن ها"
+msgstr ""
 
 #. module: coupon
 #: model:ir.actions.act_window,name:coupon.coupon_generate_action
 msgid "Number of Coupons To Generate"
-msgstr "تعداد کوپن برای ایجاد"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_generate_wizard__generation_type__nbr_customer
@@ -689,7 +683,7 @@ msgstr ""
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_generate_wizard__nbr_coupons
 msgid "Number of coupons"
-msgstr "تعداد کوپن ها"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_reward__discount_apply_on__cheapest_product
@@ -699,7 +693,7 @@ msgstr ""
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_reward__discount_apply_on__on_order
 msgid "On Order"
-msgstr "به سفارش"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_program__discount_apply_on
@@ -769,18 +763,18 @@ msgstr ""
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_coupon__program_id
 msgid "Program"
-msgstr "برنامه"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_coupon_program_form
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_promo_program_form
 msgid "Program Name"
-msgstr "نام برنامه"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__program_type
 msgid "Program Type"
-msgstr "نوع برنامه"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__promo_code_usage
@@ -790,24 +784,24 @@ msgstr ""
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__promo_code
 msgid "Promotion Code"
-msgstr "کد تبلیغاتی"
+msgstr ""
 
 #. module: coupon
 #: model:ir.actions.act_window,name:coupon.coupon_program_action_promo_program
 msgid "Promotion Programs"
-msgstr "برنامه های تبلیغاتی"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_program__program_type__promotion_program
 msgid "Promotional Program"
-msgstr "برنامه تبلیغاتی"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__reward_product_quantity
 #: model:ir.model.fields,field_description:coupon.field_coupon_reward__reward_product_quantity
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
 msgid "Quantity"
-msgstr "تعداد"
+msgstr "مقدار"
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__reward_id
@@ -871,22 +865,22 @@ msgstr ""
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
 msgid "Select company"
-msgstr "شرکت را انتخاب کنید"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_promo_program_form
 msgid "Select customer"
-msgstr "انتخاب مشتری"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
 msgid "Select product"
-msgstr "انتخاب محصول"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
 msgid "Select products"
-msgstr "انتخاب محصولات"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
@@ -901,17 +895,17 @@ msgstr "ارسال"
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_program__promo_applicability__on_next_order
 msgid "Send a Coupon"
-msgstr "ارسال یک کوپن"
+msgstr ""
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_view_form
 msgid "Send by Email"
-msgstr "ارسال از طریق ایمیل"
+msgstr "ارسال با ایمیل"
 
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_coupon__state__sent
 msgid "Sent"
-msgstr "ارسال"
+msgstr "ارسال شد"
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__sequence
@@ -939,7 +933,7 @@ msgstr "تاریخ شروع"
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_coupon__state
 msgid "State"
-msgstr "شروع"
+msgstr "استان"
 
 #. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_rule__rule_minimum_amount_tax_inclusion__tax_excluded
@@ -954,7 +948,7 @@ msgstr ""
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.report_coupon
 msgid "Thank you,"
-msgstr "متشکرم،"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.constraint,message:coupon.constraint_coupon_coupon_unique_coupon_code
@@ -971,7 +965,7 @@ msgstr ""
 #: model:ir.model.fields,help:coupon.field_coupon_program__discount_fixed_amount
 #: model:ir.model.fields,help:coupon.field_coupon_reward__discount_fixed_amount
 msgid "The discount in fixed amount"
-msgstr "تخفیف به مبلغ ثابت"
+msgstr ""
 
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_program__discount_percentage
@@ -1079,14 +1073,6 @@ msgstr ""
 #: code:addons/coupon/models/coupon_program.py:0
 #, python-format
 msgid "You can not delete a program in active state"
-msgstr ""
-
-#. module: coupon
-#: code:addons/coupon/models/product_product.py:0
-#, python-format
-msgid ""
-"You cannot delete a product that is linked with Coupon or Promotion program."
-" Archive it instead."
 msgstr ""
 
 #. module: coupon

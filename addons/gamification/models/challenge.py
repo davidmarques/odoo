@@ -232,21 +232,22 @@ class Challenge(models.Model):
         return records._update_all()
 
     def _update_all(self):
-        """Update the challenges and related goals."""
+        """Update the challenges and related goals
+
+        :param list(int) ids: the ids of the challenges to update, if False will
+        update only challenges in progress."""
         if not self:
             return True
 
         Goals = self.env['gamification.goal']
 
         # include yesterday goals to update the goals that just ended
-        # exclude goals for portal users that did not connect since the last update
+        # exclude goals for users that did not connect since the last update
         yesterday = fields.Date.to_string(date.today() - timedelta(days=1))
         self.env.cr.execute("""SELECT gg.id
                         FROM gamification_goal as gg
                         JOIN res_users_log as log ON gg.user_id = log.create_uid
-                        JOIN res_users ru on log.create_uid = ru.id
-                       WHERE (gg.write_date < log.create_date OR ru.share IS NOT TRUE)
-                         AND ru.active IS TRUE
+                       WHERE gg.write_date < log.create_date
                          AND gg.closed IS NOT TRUE
                          AND gg.challenge_id IN %s
                          AND (gg.state = 'inprogress'

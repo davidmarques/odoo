@@ -5,8 +5,6 @@
 # Translators:
 # Martin Trigaux, 2021
 # grazziano <gra.negocia@gmail.com>, 2021
-# Layna Nascimento, 2023
-# Kevilyn Rosa, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,13 +12,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:50+0000\n"
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
-"Last-Translator: Kevilyn Rosa, 2023\n"
-"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Last-Translator: grazziano <gra.negocia@gmail.com>, 2021\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: google_recaptcha
 #: model_terms:ir.ui.view,arch_db:google_recaptcha.res_config_settings_view_form
@@ -52,26 +50,26 @@ msgstr "Pontuação mínima"
 #: code:addons/google_recaptcha/static/src/js/recaptcha.js:0
 #, python-format
 msgid "No recaptcha site key set."
-msgstr "Nenhuma chave de site recaptcha definida."
+msgstr ""
 
 #. module: google_recaptcha
 #. openerp-web
 #: code:addons/google_recaptcha/static/src/xml/recaptcha.xml:0
 #, python-format
 msgid "Privacy Policy"
-msgstr "Política de Privacidade"
+msgstr ""
 
 #. module: google_recaptcha
 #. openerp-web
 #: code:addons/google_recaptcha/static/src/xml/recaptcha.xml:0
 #, python-format
 msgid "Protected by reCAPTCHA,"
-msgstr "Protegido por reCAPTCHA,"
+msgstr ""
 
 #. module: google_recaptcha
 #: model:ir.model.fields,field_description:google_recaptcha.field_res_config_settings__recaptcha_private_key
 msgid "Secret Key"
-msgstr "Chave secreta"
+msgstr ""
 
 #. module: google_recaptcha
 #: model:ir.model.fields,help:google_recaptcha.field_res_config_settings__recaptcha_min_score
@@ -79,55 +77,53 @@ msgid ""
 "Should be between 0.0 and 1.0.\n"
 "1.0 is very likely a good interaction, 0.0 is very likely a bot"
 msgstr ""
-"Deve estar entre 0,0 e 1,0.\n"
-"1,0 é muito provavelmente uma boa interação, 0,0 é muito provavelmente um bot"
 
 #. module: google_recaptcha
 #: model:ir.model.fields,field_description:google_recaptcha.field_res_config_settings__recaptcha_public_key
 msgid "Site Key"
-msgstr "Chave do site"
+msgstr ""
 
 #. module: google_recaptcha
 #. openerp-web
 #: code:addons/google_recaptcha/static/src/xml/recaptcha.xml:0
 #, python-format
 msgid "Terms of Service"
-msgstr "Termos de serviço"
+msgstr ""
 
 #. module: google_recaptcha
 #: code:addons/google_recaptcha/models/ir_http.py:0
 #, python-format
 msgid "The reCaptcha private key is invalid."
-msgstr "A chave privada do reCaptcha é inválida."
+msgstr ""
 
 #. module: google_recaptcha
 #: code:addons/google_recaptcha/models/ir_http.py:0
 #, python-format
 msgid "The reCaptcha token is invalid."
-msgstr "O token reCaptcha é inválido."
+msgstr ""
 
 #. module: google_recaptcha
 #. openerp-web
 #: code:addons/google_recaptcha/static/src/js/recaptcha.js:0
 #, python-format
 msgid "The recaptcha site key is invalid."
-msgstr "A chave do site recaptcha é inválida."
+msgstr ""
 
 #. module: google_recaptcha
 #: code:addons/google_recaptcha/models/ir_http.py:0
 #, python-format
 msgid "The request is invalid or malformed."
-msgstr "A solicitação é inválida ou malformada."
+msgstr ""
 
 #. module: google_recaptcha
 #: code:addons/google_recaptcha/models/ir_http.py:0
 #, python-format
 msgid "Your request has timed out, please retry."
-msgstr "A sua solicitação atingiu o tempo limite. Tente novamente."
+msgstr ""
 
 #. module: google_recaptcha
 #. openerp-web
 #: code:addons/google_recaptcha/static/src/xml/recaptcha.xml:0
 #, python-format
 msgid "apply."
-msgstr "aplicar."
+msgstr ""

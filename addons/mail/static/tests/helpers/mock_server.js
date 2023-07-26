@@ -82,16 +82,10 @@ MockServer.include({
     async _performRpc(route, args) {
         // routes
         if (route === '/mail/message/post') {
-            const finalData = {};
-            for (const allowedField of ['attachment_ids', 'body', 'message_type', 'partner_ids', 'subtype_xmlid', 'parent_id']) {
-                if (args.post_data[allowedField] !== undefined) {
-                    finalData[allowedField] = args.post_data[allowedField];
-                }
-            }
             if (args.thread_model === 'mail.channel') {
-                return this._mockMailChannelMessagePost(args.thread_id, finalData, args.context);
+                return this._mockMailChannelMessagePost(args.thread_id, args.post_data, args.context);
             }
-            return this._mockMailThreadMessagePost(args.thread_model, [args.thread_id], finalData, args.context);
+            return this._mockMailThreadMessagePost(args.thread_model, [args.thread_id], args.post_data, args.context);
         }
         if (route === '/mail/attachment/delete') {
             const { attachment_id } = args;

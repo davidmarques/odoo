@@ -12,9 +12,6 @@
 # Martin Trigaux, 2022
 # Eneli Õigus <enelioigus@gmail.com>, 2022
 # Rivo Zängov <eraser@eraser.ee>, 2022
-# Leaanika Randmets, 2022
-# JanaAvalah, 2023
-# Anna, 2023
 # 
 msgid ""
 msgstr ""
@@ -22,8 +19,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:19+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
-"Last-Translator: Anna, 2023\n"
-"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Last-Translator: Rivo Zängov <eraser@eraser.ee>, 2022\n"
+"Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -33,17 +30,17 @@ msgstr ""
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "<span class=\"button\" id=\"button_open_report\">Open Report</span>"
-msgstr "<span class=\"button\" id=\"button_open_report\">Ava aruanne</span>"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "<span class=\"odoo_link_text\">Odoo</span>"
-msgstr "<span class=\"odoo_link_text\">Odoo</span>"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "<span style=\"color: #8f8f8f;\">Unsubscribe</span>"
-msgstr "<span style=\"color: #8f8f8f;\">Tühista tellimine</span>"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -53,7 +50,7 @@ msgstr "Aktiveeri"
 #. module: digest
 #: model:ir.model.fields.selection,name:digest.selection__digest_digest__state__activated
 msgid "Activated"
-msgstr "Aktiveeritud"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.res_config_settings_view_form
@@ -68,7 +65,7 @@ msgstr "Autoriseeritud Grupp"
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__available_fields
 msgid "Available Fields"
-msgstr "Saadaval väljad"
+msgstr ""
 
 #. module: digest
 #: code:addons/digest/models/digest.py:0
@@ -89,7 +86,7 @@ msgstr "Seadistused"
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.res_config_settings_view_form
 msgid "Configure Digest Emails"
-msgstr "Konfigureeri meilid"
+msgstr ""
 
 #. module: digest
 #: code:addons/digest/models/digest.py:0
@@ -100,7 +97,7 @@ msgstr "Ühenda"
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__kpi_res_users_connected
 msgid "Connected Users"
-msgstr "Ühendatud kasutajad"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -139,7 +136,7 @@ msgstr ""
 #. module: digest
 #: model:ir.model.fields.selection,name:digest.selection__digest_digest__state__deactivated
 msgid "Deactivated"
-msgstr "Deaktiveeritud"
+msgstr ""
 
 #. module: digest
 #: model:ir.model,name:digest.model_digest_digest
@@ -150,7 +147,7 @@ msgstr "Ülevaade"
 #: model:ir.model.fields,field_description:digest.field_res_config_settings__digest_id
 #: model_terms:ir.ui.view,arch_db:digest.res_config_settings_view_form
 msgid "Digest Email"
-msgstr "Uudiskirja tellija meil"
+msgstr ""
 
 #. module: digest
 #: model:ir.actions.act_window,name:digest.digest_digest_action
@@ -160,7 +157,7 @@ msgstr "Uudiskirja tellija meil"
 #: model:ir.model.fields,field_description:digest.field_res_config_settings__digest_emails
 #: model:ir.ui.menu,name:digest.digest_menu
 msgid "Digest Emails"
-msgstr "Uudiskirja meilid"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -177,7 +174,7 @@ msgstr ""
 #: model:ir.model,name:digest.model_digest_tip
 #: model:ir.ui.menu,name:digest.digest_tip_menu
 msgid "Digest Tips"
-msgstr "Kokkuvõte näpunäited"
+msgstr ""
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__display_name
@@ -227,23 +224,23 @@ msgstr ""
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__is_subscribed
 msgid "Is user subscribed"
-msgstr "kasutaja on tellinud."
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_tree
 msgid "KPI Digest"
-msgstr "KPI Kokkuvõte"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_tip_view_form
 msgid "KPI Digest Tip"
-msgstr "KPI Kokkuvõte vihje"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_tip_view_tree
 msgid "KPI Digest Tips"
-msgstr "KPI Kokkuvõte vihjed"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -253,18 +250,18 @@ msgstr "KPIs"
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__kpi_mail_message_total_value
 msgid "Kpi Mail Message Total Value"
-msgstr "KPI meilisõnumi koguväärtus"
+msgstr ""
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__kpi_res_users_connected_value
 msgid "Kpi Res Users Connected Value"
-msgstr "Kpi Res ühendatud kasutajate väärtus"
+msgstr ""
 
 #. module: digest
 #: code:addons/digest/models/digest.py:0
 #, python-format
 msgid "Last 24 hours"
-msgstr "Viimased 24 tundi"
+msgstr ""
 
 #. module: digest
 #: code:addons/digest/models/digest.py:0
@@ -276,7 +273,7 @@ msgstr "Viimased 30 päeva"
 #: code:addons/digest/models/digest.py:0
 #, python-format
 msgid "Last 7 Days"
-msgstr "Viimased 7 päeva"
+msgstr ""
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest____last_update
@@ -318,8 +315,6 @@ msgid ""
 "New users are automatically added as recipient of the following digest "
 "email."
 msgstr ""
-"Uued kasutajad lisatakse automaatselt järgmise kokkuvõtva meili "
-"adressaatideks."
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__next_run_date
@@ -329,7 +324,7 @@ msgstr ""
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
 msgid "Odoo Mobile"
-msgstr "Odoo Mobile"
+msgstr ""
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__periodicity
@@ -346,7 +341,7 @@ msgstr "Kiri saadetud läbi"
 #: code:addons/digest/models/digest.py:0
 #, python-format
 msgid "Prefer a broader overview ?"
-msgstr "Kas eelistate laiemat ülevaadet?"
+msgstr ""
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_0
@@ -370,7 +365,7 @@ msgstr "Saajad"
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
 msgid "Run your business from anywhere with <b>Odoo Mobile</b>."
-msgstr "Juhi enda ettevõtet kõikjal <b>Odoo mobiilse versiooni</b> abil."
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -405,7 +400,7 @@ msgstr "Staatus"
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "Subscribe"
-msgstr "Telli"
+msgstr ""
 
 #. module: digest
 #: code:addons/digest/models/digest.py:0
@@ -416,59 +411,57 @@ msgstr ""
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_tip__tip_description
 msgid "Tip description"
-msgstr "Vihje kirjeldus"
+msgstr ""
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_2
 msgid "Tip: A calculator in Odoo"
-msgstr "Vihje: Odoo kalkulaator"
+msgstr ""
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_1
 msgid "Tip: Click on an avatar to chat with a user"
-msgstr "Vihje: Kasutajaga vestlemiseks klõpsake avataril"
+msgstr ""
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_3
 msgid "Tip: How to ping users in internal notes?"
 msgstr ""
-"Vihje: Kuidas kasutada sisemisi märkmeid kolleegile märguande andmiseks?"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_4
 msgid "Tip: Knowledge is power"
-msgstr "Vihje: Teadmised on jõud"
+msgstr ""
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_0
 msgid "Tip: Speed up your workflow with shortcuts"
-msgstr "Tip: Kiirendage töövoog otseteede kasutamisega"
+msgstr ""
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_2
 msgid "Tip: A calculator in Odoo"
-msgstr "Nõuanne: Odoo kalkulaator"
+msgstr ""
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_1
 msgid "Tip: Click on an avatar to chat with a user"
-msgstr "Nõuanne: Kasutajaga vestlemiseks klõpsake avataril"
+msgstr ""
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_3
 msgid "Tip: How to ping users in internal notes?"
 msgstr ""
-"Nõuanne: Kuidas kasutada sisemisi märkmeid kolleegile märguande andmiseks?"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_4
 msgid "Tip: Knowledge is power"
-msgstr "Nõuanne: Teadmised on jõud"
+msgstr ""
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_0
 msgid "Tip: Speed up your workflow with shortcuts"
-msgstr "Nõuanne: Kiirendage enda töövoog otseteede kasutamisega"
+msgstr ""
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_3
@@ -476,13 +469,11 @@ msgid ""
 "Type \"@\" to notify someone in a message, or \"#\" to link to a channel. "
 "Try to notify @OdooBot to test the feature."
 msgstr ""
-"Sisesta \"@\", et kellegile kirjutada või \"#\", et linkida kanal. Proovi "
-"sisestada @OdooBot, et testida funktsiooni. "
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "Unsubscribe me"
-msgstr "Tühistage tellimus"
+msgstr ""
 
 #. module: digest
 #: model:ir.model.fields,help:digest.field_digest_tip__sequence
@@ -503,7 +494,7 @@ msgstr ""
 #: code:addons/digest/models/digest.py:0
 #, python-format
 msgid "Want to customize this email?"
-msgstr "Kas soovite antud meili kohandada?"
+msgstr ""
 
 #. module: digest
 #: code:addons/digest/models/digest.py:0
@@ -546,12 +537,12 @@ msgstr ""
 #. module: digest
 #: model:digest.digest,name:digest.digest_digest_default
 msgid "Your Odoo Periodic Digest"
-msgstr "Odoo perioodiline uudiskiri"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
 msgid "e.g. Your Weekly Digest"
-msgstr "nt. Teie nädala kokkuvõte"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -585,7 +576,7 @@ msgstr ""
 #: code:addons/digest/models/digest.py:0
 #, python-format
 msgid "weekly"
-msgstr "iganädalane"
+msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form

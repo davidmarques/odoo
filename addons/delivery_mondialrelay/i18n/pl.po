@@ -8,7 +8,6 @@
 # Dariusz Żbikowski <darek@krokus.com.pl>, 2021
 # Paweł Wodyński <pw@myodoo.pl>, 2021
 # Maksym <ms@myodoo.pl>, 2021
-# Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:28+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
-"Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
-"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+"Last-Translator: Maksym <ms@myodoo.pl>, 2021\n"
+"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -28,7 +27,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_brand
 #: model:ir.model.fields,field_description:delivery_mondialrelay.field_delivery_carrier__mondialrelay_brand
 msgid "Brand Code"
-msgstr "Kod marki"
+msgstr ""
 
 #. module: delivery_mondialrelay
 #: model:ir.model,name:delivery_mondialrelay.model_res_partner
@@ -51,12 +50,12 @@ msgstr "Kreator wyboru przewoźnika dostawy"
 #: model:ir.model.fields,field_description:delivery_mondialrelay.field_res_partner__is_mondialrelay
 #: model:ir.model.fields,field_description:delivery_mondialrelay.field_res_users__is_mondialrelay
 msgid "Is Mondialrelay"
-msgstr "Czy to Mondialrelay"
+msgstr ""
 
 #. module: delivery_mondialrelay
 #: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_last_selected
 msgid "Last Relay Selected"
-msgstr "Ostatni wybrany przekaźnik"
+msgstr ""
 
 #. module: delivery_mondialrelay
 #: model:delivery.carrier,name:delivery_mondialrelay.delivery_carrier_mondialrelay_be_lu
@@ -65,36 +64,36 @@ msgstr "Ostatni wybrany przekaźnik"
 #: model:product.product,name:delivery_mondialrelay.product_product_delivery_mondialrelay
 #: model:product.template,name:delivery_mondialrelay.product_product_delivery_mondialrelay_product_template
 msgid "Mondial Relay"
-msgstr "Mondial Relay"
+msgstr ""
 
 #. module: delivery_mondialrelay
 #: code:addons/delivery_mondialrelay/models/sale_order.py:0
 #, python-format
 msgid ""
 "Mondial Relay mismatching between delivery method and shipping address."
-msgstr "Mondial Relay nie łączy metody dostawy z adresem wysyłki."
+msgstr ""
 
 #. module: delivery_mondialrelay
 #: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_allowed_countries
 msgid "Mondialrelay Allowed Countries"
-msgstr "Dozwolone kraje Mondialrelay"
+msgstr ""
 
 #. module: delivery_mondialrelay
 #: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_last_selected_id
 msgid "Mondialrelay Last Selected"
-msgstr "Ostatnio wybrany Mondialrelay"
+msgstr ""
 
 #. module: delivery_mondialrelay
 #: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_colLivMod
 #: model:ir.model.fields,field_description:delivery_mondialrelay.field_delivery_carrier__mondialrelay_packagetype
 msgid "Mondialrelay Packagetype"
-msgstr "Typ opakowania Mondialrelay"
+msgstr ""
 
 #. module: delivery_mondialrelay
 #: code:addons/delivery_mondialrelay/wizard/choose_delivery_carrier.py:0
 #, python-format
 msgid "Please, choose a Parcel Point"
-msgstr "Wybierz punkt paczki"
+msgstr ""
 
 #. module: delivery_mondialrelay
 #: model:ir.model,name:delivery_mondialrelay.model_sale_order

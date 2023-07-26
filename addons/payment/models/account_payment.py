@@ -24,8 +24,7 @@ class AccountPayment(models.Model):
     # == Display purpose fields ==
     suitable_payment_token_ids = fields.Many2many(
         comodel_name='payment.token',
-        compute='_compute_suitable_payment_token_ids',
-        compute_sudo=True,
+        compute='_compute_suitable_payment_token_ids'
     )
     use_electronic_payment_method = fields.Boolean(
         compute='_compute_use_electronic_payment_method',

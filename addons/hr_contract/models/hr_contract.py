@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-import threading
-
 from datetime import date
 from dateutil.relativedelta import relativedelta
 
@@ -10,10 +8,6 @@ from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
 
 from odoo.osv import expression
-
-import logging
-_logger = logging.getLogger(__name__)
-
 
 class Contract(models.Model):
     _name = 'hr.contract'
@@ -149,7 +143,6 @@ class Contract(models.Model):
 
     @api.model
     def update_state(self):
-        from_cron = 'from_cron' in self.env.context
         contracts = self.search([
             ('state', '=', 'open'), ('kanban_state', '!=', 'blocked'),
             '|',
@@ -167,23 +160,20 @@ class Contract(models.Model):
                 _("The contract of %s is about to expire.", contract.employee_id.name),
                 user_id=contract.hr_responsible_id.id or self.env.uid)
 
-        if contracts:
-            contracts._safe_write_for_cron({'kanban_state': 'blocked'}, from_cron)
+        contracts.write({'kanban_state': 'blocked'})
 
-        contracts_to_close = self.search([
+        self.search([
             ('state', '=', 'open'),
             '|',
-            ('date_end', '<=', fields.Date.to_string(date.today())),
-            ('visa_expire', '<=', fields.Date.to_string(date.today())),
-        ])
+            ('date_end', '<=', fields.Date.to_string(date.today() + relativedelta(days=1))),
+            ('visa_expire', '<=', fields.Date.to_string(date.today() + relativedelta(days=1))),
+        ]).write({
+            'state': 'close'
+        })
 
-        if contracts_to_close:
-            contracts_to_close._safe_write_for_cron({'state': 'close'}, from_cron)
-
-        contracts_to_open = self.search([('state', '=', 'draft'), ('kanban_state', '=', 'done'), ('date_start', '<=', fields.Date.to_string(date.today())),])
-
-        if contracts_to_open:
-            contracts_to_open._safe_write_for_cron({'state': 'open'}, from_cron)
+        self.search([('state', '=', 'draft'), ('kanban_state', '=', 'done'), ('date_start', '<=', fields.Date.to_string(date.today())),]).write({
+            'state': 'open'
+        })
 
         contract_ids = self.search([('date_end', '=', False), ('state', '=', 'close'), ('employee_id', '!=', False)])
         # Ensure all closed contract followed by a new contract have a end date.
@@ -191,35 +181,20 @@ class Contract(models.Model):
         for contract in contract_ids:
             next_contract = self.search([
                 ('employee_id', '=', contract.employee_id.id),
-                ('state', 'not in', ['cancel', 'draft']),
+                ('state', 'not in', ['cancel', 'new']),
                 ('date_start', '>', contract.date_start)
             ], order="date_start asc", limit=1)
             if next_contract:
-                contract._safe_write_for_cron({'date_end': next_contract.date_start - relativedelta(days=1)}, from_cron)
+                contract.date_end = next_contract.date_start - relativedelta(days=1)
                 continue
             next_contract = self.search([
                 ('employee_id', '=', contract.employee_id.id),
                 ('date_start', '>', contract.date_start)
             ], order="date_start asc", limit=1)
             if next_contract:
-                contract._safe_write_for_cron({'date_end': next_contract.date_start - relativedelta(days=1)}, from_cron)
+                contract.date_end = next_contract.date_start - relativedelta(days=1)
 
         return True
-
-    def _safe_write_for_cron(self, vals, from_cron=False):
-        if from_cron:
-            auto_commit = not getattr(threading.current_thread(), 'testing', False)
-            for contract in self:
-                try:
-                    with self.env.cr.savepoint():
-                        contract.write(vals)
-                except ValidationError as e:
-                    _logger.warning(e)
-                else:
-                    if auto_commit:
-                        self.env.cr.commit()
-        else:
-            self.write(vals)
 
     def _assign_open_contract(self):
         for contract in self:

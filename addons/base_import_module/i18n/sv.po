@@ -7,7 +7,6 @@
 # Martin Trigaux, 2021
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2021
 # Haojun Zou <apollo_zhj@msn.com>, 2021
-# Lasse Larsson, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
-"Last-Translator: Lasse Larsson, 2023\n"
-"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Last-Translator: Haojun Zou <apollo_zhj@msn.com>, 2021\n"
+"Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -37,7 +36,7 @@ msgstr "Stäng"
 #: code:addons/base_import_module/controllers/main.py:0
 #, python-format
 msgid "Could not select database '%s'"
-msgstr "Kunde inte välja databas '%s'"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__create_uid
@@ -58,20 +57,18 @@ msgstr "Visningsnamn"
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
 msgid "File '%s' exceed maximum allowed file size"
-msgstr "Fil '%s' överskrider maximalt tillåten filstorlek"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__force
 msgid "Force init"
-msgstr "Forcera init"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,help:base_import_module.field_base_import_module__force
 msgid ""
 "Force init mode even if installed. (will update `noupdate='1'` records)"
 msgstr ""
-"Tvinga init-läge även om det är installerat. (kommer att uppdatera "
-"`noupdate='1'`-poster)"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__id
@@ -81,12 +78,12 @@ msgstr "ID"
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Import App"
-msgstr "Importera App"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__import_message
 msgid "Import Message"
-msgstr "Importera meddelande"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.actions.act_window,name:base_import_module.action_view_base_module_import
@@ -104,7 +101,7 @@ msgstr "Importmodul"
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__imported
 msgid "Imported Module"
-msgstr "Importerad modul"
+msgstr ""
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module____last_update
@@ -135,26 +132,24 @@ msgstr "Modulens .ZIp fil"
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
 msgid "No file sent."
-msgstr "Ingen fil skickade."
+msgstr ""
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Note: you can only import data modules (.xml files and static assets)"
 msgstr ""
-"Observera: Du kan endast importera datamoduler (.xml-filer och statiska "
-"tillgångar)"
 
 #. module: base_import_module
 #: code:addons/base_import_module/controllers/main.py:0
 #, python-format
 msgid "Only administrators can upload a module"
-msgstr "Endast administratörer kan ladda upp en modul"
+msgstr ""
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
 msgid "Only zip files are supported."
-msgstr "Endast zip-filer stöds."
+msgstr ""
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
@@ -175,13 +170,13 @@ msgstr "Status"
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
 msgid "Studio customizations require Studio"
-msgstr "Studio-anpassningar kräver Studio"
+msgstr ""
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
 msgid "Studio customizations require the Odoo Studio app."
-msgstr "Studio-anpassningar kräver Odoo Studio-appen."
+msgstr ""
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
@@ -191,9 +186,6 @@ msgid ""
 "\n"
 " - %s"
 msgstr ""
-"Ej uppfyllda modulberoenden:\n"
-"\n"
-" - %s"
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_ui_view

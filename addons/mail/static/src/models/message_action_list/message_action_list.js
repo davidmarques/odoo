@@ -43,7 +43,6 @@ function factory(dependencies) {
             this.message.updateContent({
                 body: '',
                 attachment_ids: [],
-                attachment_tokens: [],
             });
         }
 

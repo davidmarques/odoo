@@ -5,7 +5,6 @@
 # Translators:
 # Martin Trigaux, 2021
 # Cécile Collart <cco@odoo.com>, 2022
-# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,13 +12,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:19+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
-"Last-Translator: Jolien De Paepe, 2023\n"
-"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Cécile Collart <cco@odoo.com>, 2022\n"
+"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: base_import
 #. openerp-web
@@ -59,7 +58,7 @@ msgstr "Avancé"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Allow matching with subfields"
-msgstr "Permet la mise en correspondance avec des sous-champs"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -96,7 +95,7 @@ msgstr "Mapping d'importation de base"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Batch Import"
-msgstr "Import par lots"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -169,7 +168,7 @@ msgstr ""
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Create new values"
-msgstr "Créer de nouvelles valeurs"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__create_uid
@@ -266,7 +265,7 @@ msgstr "Séparateur de décimales"
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_o2m_child__display_name
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_preview__display_name
 msgid "Display Name"
-msgstr "Nom d'affichage"
+msgstr "Afficher Nom"
 
 #. module: base_import
 #. openerp-web
@@ -290,7 +289,7 @@ msgstr "Télécharger"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Download Template"
-msgstr "Télécharger le modèle"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_complex__dt
@@ -356,7 +355,7 @@ msgstr "Fichier"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "File Column"
-msgstr "Colonne de fichier"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__file_name
@@ -400,7 +399,7 @@ msgstr ""
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Formatting"
-msgstr "Formatage"
+msgstr ""
 
 #. module: base_import
 #: code:addons/base_import/models/base_import.py:0
@@ -464,10 +463,6 @@ msgid ""
 "                    field corresponding to the column. This makes imports\n"
 "                    simpler especially when the file has many columns."
 msgstr ""
-"Si le fichier contient\n"
-"                    les noms des colonnes, Odoo peut tenter de détecter automatiquement le\n"
-"                    champ correspondant à la colonne. Ceci rend l'importation\n"
-"                    plus simple, surtout quand le fichier compte de nombreuses colonnes."
 
 #. module: base_import
 #. openerp-web
@@ -557,7 +552,7 @@ msgstr "Fichier importé"
 #: code:addons/base_import/static/src/legacy/js/import_action.js:0
 #, python-format
 msgid "Importing"
-msgstr "En cours d'importation"
+msgstr ""
 
 #. module: base_import
 #: code:addons/base_import/models/base_import.py:0
@@ -664,7 +659,7 @@ msgstr "Modèle"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Multiple errors occurred"
-msgstr "Plusieurs erreurs se sont produites"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -725,7 +720,7 @@ msgstr "Parent"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Prevent import"
-msgstr "Empêcher l'import"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -794,21 +789,21 @@ msgstr "Séparateur :"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Set to:"
-msgstr "Défini à :"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Set to: False"
-msgstr "Défini à : False"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Set to: True"
-msgstr "Défini à : True"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -848,7 +843,7 @@ msgstr "Espace"
 #: code:addons/base_import/static/src/legacy/js/import_action.js:0
 #, python-format
 msgid "Standard Fields"
-msgstr "Champs standards"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -1166,21 +1161,21 @@ msgstr "Vous devez paramétrer au moins un champ à importer"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "at multiple rows"
-msgstr "à plusieurs rangs"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "at row"
-msgstr "au rang"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "batch"
-msgstr "lot"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -1188,7 +1183,7 @@ msgstr "lot"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "in field"
-msgstr "dans le champ"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -1202,14 +1197,14 @@ msgstr "minutes"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "more)"
-msgstr "plsu)"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "out of"
-msgstr "depuis"
+msgstr ""
 
 #. module: base_import
 #: code:addons/base_import/models/base_import.py:0

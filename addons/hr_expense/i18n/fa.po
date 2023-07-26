@@ -4,18 +4,16 @@
 # 
 # Translators:
 # Hamid Reza Kaveh <hamidrkp@riseup.net>, 2022
-# Mohsen Mohammadi <iammohsen.123@gmail.com>, 2022
 # Maziar Niaki <maziarmn@gmail.com>, 2022
 # سید محمد آذربرا <mohammadazarbara98@gmail.com>, 2022
+# Mohsen Mohammadi <iammohsen.123@gmail.com>, 2022
 # Martin Trigaux, 2022
 # Hamed Mohammadi <hamed@dehongi.com>, 2022
 # Hamid Darabi, 2022
 # M.Hossein S.Farvashani <Farvashani@gmail.com>, 2022
 # Faraz Sadri Alamdari <ifarazir@gmail.com>, 2022
-# Farid Hariri <fhari1234@gmail.com>, 2022
+# Far Har <fhari1234@gmail.com>, 2022
 # Mohammad Tahmasebi <hit.tah75@gmail.com>, 2022
-# Hanna Kheradroosta, 2022
-# Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -23,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:18+0000\n"
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
-"Last-Translator: Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2023\n"
-"Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
+"Last-Translator: Mohammad Tahmasebi <hit.tah75@gmail.com>, 2022\n"
+"Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -70,7 +68,7 @@ msgid ""
 "<p>Approve the report here.</p><p>Tip: if you refuse, don’t forget to give "
 "the reason thanks to the hereunder message tool</p>"
 msgstr ""
-"<p> گزارش را در اینجا تایید کنید.</p> <p>Tip: اگر شما ردکردید, فراموش نکنید "
+"<p> گزارش را در اینجا تصویب کنید.</p> <p>Tip: اگر شما ردکردید, فراموش نکنید "
 "که دلیل آن را اعلام کنید </p>"
 
 #. module: hr_expense
@@ -81,29 +79,31 @@ msgid ""
 "<p>Click on <b> Action Create Report </b> to submit selected expenses to "
 "your manager</p>"
 msgstr ""
-"<p>روی <b> اقدام ایجاد گزارش </b> کلیک کنید تا هزینه‌های انتخابی را به مدیر "
-"خود ارسال کنید</p>"
+"<p> بر روی <b> عمل ایجاد کنید گزارش </ b> برای ارسال هزینه های انتخاب شده به"
+" مدیر خود </ p>"
 
 #. module: hr_expense
 #. openerp-web
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 #, python-format
 msgid "<p>Click on <b> Create Report </b> to create the report.</p>"
-msgstr "<p>برای ایجاد گزارش، روی <b> ایجاد گزارش </b> کلیک کنید.</p>"
+msgstr "<p> بر روی <b> ایجاد گزارش </ b> برای ایجاد گزارش کلیک کنید. </ p>"
 
 #. module: hr_expense
 #. openerp-web
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 #, python-format
 msgid "<p>Once your <b> Expense </b> is ready, you can save it.</p>"
-msgstr "<p>وقتی <b> هزینه </b> شما آماده شد، می توانید آن را ذخیره کنید.</p>"
+msgstr ""
+"<p> هنگامی که شما <b> هزینه </ b> آماده است، شما می توانید آن را ذخیره کنید."
+" </ p>"
 
 #. module: hr_expense
 #. openerp-web
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 #, python-format
 msgid "<p>Select expenses to submit them to your manager</p>"
-msgstr "<p> هزینه ها را انتخاب کنید تا آنها را به مدیر خود ارسال کنید </ p>"
+msgstr "<p> هزینه ها را انتخاب کنید تا آنها را به مدیر خود ارسال کنید </p>"
 
 #. module: hr_expense
 #. openerp-web
@@ -113,9 +113,8 @@ msgid ""
 "<p>The accountant receive approved expense reports.</p><p>He can post "
 "journal entries in one click if taxes and accounts are right.</p>"
 msgstr ""
-"<p>حسابدار گزارش‌های هزینه‌های تایید شده را دریافت می‌کند.</p><p>اگر "
-"مالیات‌ها و حساب‌ها درست باشد، می‌تواند با یک کلیک ورودی‌های روزنامه را پست "
-"کند.</p>"
+"<p> حسابدار گزارش های هزینه تصویب‌شده را دریافت می‌کند </p> <p> او می تواند "
+"سندهای دفترروزنامه را  اگر مالیات و حساب درست است، در یک کلیک ثبت کند.</p>"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -139,7 +138,7 @@ msgstr "<strong>تاریخ:</strong>"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Description:</strong>"
-msgstr "<strong>توضیحات:<strong/>"
+msgstr "<strong>شرح:<strong/>"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -187,7 +186,7 @@ msgstr "تاریخ حسابداری"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_needaction
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_needaction
 msgid "Action Needed"
-msgstr "اقدام مورد نیاز است"
+msgstr "عملیات مورد نیاز است"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_ids
@@ -199,7 +198,7 @@ msgstr "فعالیت‌ها"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_exception_decoration
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "دکوراسیون استثنایی فعالیت"
+msgstr "دکوراسیون استثنا فعالیت"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_state
@@ -222,7 +221,7 @@ msgstr "انواع فعالیت"
 #. module: hr_expense
 #: model:res.groups,name:hr_expense.group_hr_expense_manager
 msgid "Administrator"
-msgstr "مدیر"
+msgstr "راهبر"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -232,7 +231,7 @@ msgstr "مستعار"
 #. module: hr_expense
 #: model:res.groups,name:hr_expense.group_hr_expense_user
 msgid "All Approver"
-msgstr "تایید کننده همه"
+msgstr "تصویب‌کننده‌ همه"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_all
@@ -255,7 +254,7 @@ msgstr "همه گزارش‌ها"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__amount_residual
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__amount_residual
 msgid "Amount Due"
-msgstr "مقدار سررسید"
+msgstr "مقدار سر رسید"
 
 #. module: hr_expense
 #. openerp-web
@@ -291,7 +290,7 @@ msgstr "حساب تحلیلی"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__analytic_tag_ids
 msgid "Analytic Tags"
-msgstr "برچسبهای تحلیلی"
+msgstr "برچسب‌های تحلیلی"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
@@ -302,45 +301,45 @@ msgstr "فروشگاه برنامه اپل"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__approval_date
 msgid "Approval Date"
-msgstr "تاریخ تایید"
+msgstr "تاریخ تاییدیه"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_approve_duplicate_view_form
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Approve"
-msgstr "موافقت"
+msgstr "تصویب‌"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
 msgid "Approve Report"
-msgstr "تایید گزارش"
+msgstr "تصویب‌ گزارش"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_to_approve
 msgid "Approve the new expense reports submitted by the employees you manage."
-msgstr "گزارش هزینه جدید ارائه شده توسط کارکنان تحت مدیریت‌تان را تایید کنید."
+msgstr "گزارش هزینه جدید ارائه شده توسط کارکنان تحت مدیریت‌تان را تصویب کنید."
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__approved
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__approve
 #: model:mail.message.subtype,name:hr_expense.mt_expense_approved
 msgid "Approved"
-msgstr "موافقت شد"
+msgstr "تصویب‌شد"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__approved_by
 msgid "Approved By"
-msgstr "تایید شده توسط"
+msgstr ""
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "Approved Expenses"
-msgstr "هزینه‌های تایید ‌شده"
+msgstr "هزینه‌های تصویب‌شده"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__approved_on
 msgid "Approved On"
-msgstr "تایید شده در"
+msgstr ""
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
@@ -350,7 +349,7 @@ msgstr "بایگانی‌شده"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Attach Receipt"
-msgstr "رسید را ضمیمه کنید"
+msgstr "پیوست رسید"
 
 #. module: hr_expense
 #. openerp-web
@@ -373,12 +372,12 @@ msgstr "دفترروزنامه‌ بانک"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__reference
 msgid "Bill Reference"
-msgstr "شماره مرجع قبض"
+msgstr "شماره پیگیری صورتحساب"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__can_approve
 msgid "Can Approve"
-msgstr "می تواند تایید کند"
+msgstr "می‌تواند تصویب‌ کند"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__can_reset
@@ -404,17 +403,17 @@ msgstr "لغو"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Category"
-msgstr "دسته بندی"
+msgstr "دسته‌بندی"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "Category:"
-msgstr "دسته بندی:"
+msgstr ""
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "Category: not found"
-msgstr "دسته بندی: پیدا نشد"
+msgstr ""
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -451,8 +450,8 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
-"تبدیل بین واحدهای اندازه گیری تنها در صورتی می تواند رخ دهد که به یک دسته "
-"تعلق داشته باشند. تبدیل بر اساس نسبت‌ها انجام خواهد شد."
+"تبدیل بین واحدهای اندازه گیری تنها در صورتی امکان پذیر است که متعلق به یک "
+"دسته باشند. تبدیل بر اساس نسبت ها انجام می شود."
 
 #. module: hr_expense
 #. openerp-web
@@ -496,7 +495,7 @@ msgstr "ایجاد یک رکورد جدید"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__create_uid
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__create_uid
 msgid "Created by"
-msgstr "ایجاد شده توسط"
+msgstr "ایجادشده توسط"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__create_date
@@ -550,7 +549,7 @@ msgstr "دپارتمان"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__name
 msgid "Description"
-msgstr "توصیف"
+msgstr "توضیحات"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
@@ -585,7 +584,7 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Documents"
-msgstr "اسناد"
+msgstr "مدارک"
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__done
@@ -602,7 +601,7 @@ msgstr "پیشنویس"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__duplicate_expense_ids
 #, python-format
 msgid "Duplicate Expense"
-msgstr "هزینه تکراری"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_employee
@@ -654,7 +653,7 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_employee_tree_inherit_expense
 msgid "Expense Approver"
-msgstr "تایید کننده هزینه"
+msgstr "تصویب‌کننده هزینه"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__date
@@ -692,7 +691,7 @@ msgstr "مدیریت دخل و خرج"
 #: model:ir.ui.menu,name:hr_expense.menu_hr_product
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Expense Products"
-msgstr "محصولات هزینه ای"
+msgstr "محصولات هزینه"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_refuse_wizard
@@ -715,7 +714,7 @@ msgstr "وضعیت گزارش هزینه"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__name
 msgid "Expense Report Summary"
-msgstr "خلاصه گزارش هزینه"
+msgstr "گزارش هزینه خلاصه"
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_report
@@ -728,7 +727,7 @@ msgstr "گزارش هزینه‌ها"
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_filtered
 msgid "Expense Reports Analysis"
-msgstr "تجزیه و تحلیل گزارش هزینه"
+msgstr "تجزیه و تحلیل گزارش هزینه "
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_pay
@@ -744,7 +743,7 @@ msgstr "گزارش هزینه آماده ثبت"
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_approve
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_to_approve
 msgid "Expense Reports to Approve"
-msgstr "گزارش‌های هزینه برای تایید"
+msgstr "گزارش‌های هزینه برای تصویب‌"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_approve_duplicate_view_form
@@ -759,7 +758,7 @@ msgstr "محصولات هزینه را می توان برای مشتریان خ�
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 msgid "Expense refuse reason"
-msgstr "دلیل رد هزینه"
+msgstr "دلیل امتناع هزینه"
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_approved
@@ -787,7 +786,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_account_move_line__expense_id
 msgid "Expense where the move line come from"
-msgstr "هزینه‌ای که سطر انتقال از آن آمده است"
+msgstr "هزینه‌ای که سطر انتقال از آن آمده"
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_root
@@ -821,7 +820,7 @@ msgstr "گزارش هزینه‌ها"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_department__expense_sheets_to_approve_count
 msgid "Expenses Reports to Approve"
-msgstr "گزارش‌های هزینه برای تایید"
+msgstr "گزارش‌های هزینه برای تصویب‌"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
@@ -871,7 +870,7 @@ msgstr "دنبال‌کنندگان"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_partner_ids
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "پیروان (شرکاء)"
+msgstr "دنبال کنندگان (طرف حساب ها)"
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__activity_type_icon
@@ -918,18 +917,18 @@ msgstr "فروشگاه Google Play"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Group By"
-msgstr "گروه‌بندی برمبنای"
+msgstr "گروه بندی بر مبنای"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__is_multiple_currency
 msgid "Handle lines with different currencies"
-msgstr "سطرها با ارزهای مختلف را مدیریت کنید"
+msgstr "سطرها با ارزهای مختلف را اداره کنید"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__has_message
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__has_message
 msgid "Has Message"
-msgstr "دارای پیام"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__hr_expense_ids
@@ -939,7 +938,7 @@ msgstr "هزینه منابع انسانی"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__hr_expense_sheet_id
 msgid "Hr Expense Sheet"
-msgstr "برگه هزینه منابع انسانی"
+msgstr "ساعت ورق هزینه"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__id
@@ -967,8 +966,7 @@ msgstr "آیکون برای نشان دادن یک فعالیت استثنایی
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_needaction
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_unread
 msgid "If checked, new messages require your attention."
-msgstr ""
-"اگر این گزینه را انتخاب کنید، پیام‌های جدید به توجه شما نیاز خواهند داشت."
+msgstr "در صورت علامت‌گذاری، پیام‌های جدید نیاز به توجه شما دارند."
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__message_has_error
@@ -976,7 +974,7 @@ msgstr ""
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_has_error
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "در صورت انتخاب این گزینه، برخی پیام‌ها خطای تحویل دارند."
+msgstr "در صورت بررسی ، برخی پیام ها خطای تحویل دارند."
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__payment_state__in_payment
@@ -1030,19 +1028,19 @@ msgstr ""
 #: model:ir.model,name:hr_expense.model_account_journal
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "Journal"
-msgstr "روزنامه"
+msgstr "دفترروزنامه‌"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__account_move_id
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Journal Entry"
-msgstr "داده روزنامه"
+msgstr "ورودی روزنامه"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move_line
 msgid "Journal Item"
-msgstr "آیتم روزنامه"
+msgstr "آیتم سند"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__label_convert_rate
@@ -1068,7 +1066,7 @@ msgstr "آخرین تغییر در"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__write_uid
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__write_uid
 msgid "Last Updated by"
-msgstr "آخرین تغییر توسط"
+msgstr "آخرین به‌روز‌رسانی توسط"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__write_date
@@ -1082,7 +1080,7 @@ msgstr "آخرین به روز رسانی در"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Late Activities"
-msgstr "فعالیتهای اخیر"
+msgstr "فعالیتهای دیر شده"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__use_mailgateway
@@ -1105,7 +1103,7 @@ msgstr "مدیر"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 #, python-format
 msgid "Managers can get all reports to approve from this menu."
-msgstr "مدیران می‌توانید تمام گزارشات برای تایید را از این منو ببینند."
+msgstr "مدیران می‌توانید تمام گزارشات برای تصویب‌ را از این منو ببینند."
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_has_error
@@ -1129,7 +1127,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__my_activity_date_deadline
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "موعد فعالیت من"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_my_expenses
@@ -1171,7 +1169,7 @@ msgstr "گزارش هزینه جدید"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_date_deadline
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "موعد فعالیت بعدی"
+msgstr "آخرین موعد فعالیت بعدی"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_summary
@@ -1250,7 +1248,7 @@ msgstr "یادداشت..."
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_needaction_counter
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_needaction_counter
 msgid "Number of Actions"
-msgstr "تعداد اقدامات"
+msgstr "تعداد عملیات"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__attachment_number
@@ -1268,13 +1266,13 @@ msgstr "تعداد خطاها"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__message_needaction_counter
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "تعداد پیام ها که نیاز به عمل"
+msgstr "تعداد پیام ها که نیاز به اقدام دارد"
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__message_has_error_counter
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "تعداد پیامهای با خطای تحویل"
+msgstr "تعداد پیام‌های با خطای تحویل"
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__message_unread_counter
@@ -1295,8 +1293,7 @@ msgid ""
 "Once you have created your expense, submit it to your manager who will "
 "validate it."
 msgstr ""
-"هنگامی که هزینه خود را ایجاد کردید، آن را به مدیر خود ارسال کنید تا آن را "
-"تایید کند."
+"پس از ایجاد هزینه‌تان، آن را به مدیر خود ارسال کنید تا آن را معتبر کند."
 
 #. module: hr_expense
 #. openerp-web
@@ -1322,7 +1319,7 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "Only Managers and HR Officers can approve expenses"
-msgstr "فقط مدیران و مسوولین منابع انسانی می‌توانند هزینه ها را تایید کنند"
+msgstr "فقط مدیران و مسوولین منابع انسانی می‌توانند هزینه ها را تصویب کنند"
 
 #. module: hr_expense
 #: model:product.product,name:hr_expense.other_expense_product
@@ -1336,7 +1333,7 @@ msgstr ""
 #: model:mail.message.subtype,name:hr_expense.mt_expense_paid
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Paid"
-msgstr "پرداخت شد"
+msgstr "پرداخت‌شده"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__payment_mode
@@ -1347,18 +1344,18 @@ msgstr "پرداخت شده توسط"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Partial"
-msgstr "جزئي"
+msgstr "جزئی"
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__payment_state__partial
 msgid "Partially Paid"
-msgstr "جزئی پرداخت شده است"
+msgstr "جزئی پرداخت شده"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/account_move.py:0
 #, python-format
 msgid "Payment Cancelled"
-msgstr "پرداخت لغو شد"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__payment_state
@@ -1381,7 +1378,7 @@ msgstr "ثبت اسناد"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Post Journal Entries"
-msgstr "ارسال داده های روزنامه"
+msgstr "تایید رکوردهای سند"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_to_post
@@ -1389,18 +1386,18 @@ msgid ""
 "Post the journal entries of the new expense reports approved by the "
 "employees' manager."
 msgstr ""
-"سندهای دفتر روزنامه گزارش هزینه‌های جدید که توسط مدیر کارکنان تایید شده است "
+"سندهای دفتر روزنامه گزارش هزینه‌های جدید که توسط مدیر کارکنان تأیید شده است "
 "را ثبت کنید."
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__post
 msgid "Posted"
-msgstr "سند ثبت شد"
+msgstr "ارسال شد"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register_no_user
 msgid "Powered by"
-msgstr "راه اندازی شده به وسیله"
+msgstr "قدرت گرفته از"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -1445,17 +1442,17 @@ msgstr "کارمند عمومی"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Qty"
-msgstr "تعداد"
+msgstr "مقدار"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__quantity
 msgid "Quantity"
-msgstr "تعداد"
+msgstr "مقدار"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__reason
 msgid "Reason"
-msgstr "علت"
+msgstr "دلیل"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
@@ -1475,7 +1472,7 @@ msgstr "رسیدها"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Ref."
-msgstr "مرجع"
+msgstr "پیگیری."
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__is_ref_editable
@@ -1554,12 +1551,12 @@ msgstr "گزارش ارز شرکت"
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_reports
 msgid "Reporting"
-msgstr "گزارش"
+msgstr "گزارش گیری"
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_to_approve
 msgid "Reports to Approve"
-msgstr "گزارش برای تایید"
+msgstr "گزارش برای تصویب‌"
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_to_pay
@@ -1574,7 +1571,7 @@ msgstr "گزارش برای ارسال"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Reset to Draft"
-msgstr "بازنشانی به پیشنویس"
+msgstr "برگشت به پیشنویس"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_user_id
@@ -1604,7 +1601,7 @@ msgstr "نمونه"
 #: code:addons/hr_expense/static/src/js/expense_form_view.js:0
 #, python-format
 msgid "Save Anyways"
-msgstr "به هر حال ذخیره کنید"
+msgstr ""
 
 #. module: hr_expense
 #. openerp-web
@@ -1629,8 +1626,8 @@ msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
-"کاربر مسئول تایید \"هزینه\" این کارمند را انتخاب کنید.\n"
-" اگر خالی باشد، تایید توسط راهبر سیستم و یا تایید‌کننده (که در تنظیمات/کاربران تعیین می‌شود) انجام می شود."
+"کاربر مسئول تصویب \"هزینه\" این کارمند را انتخاب کنید.\n"
+" اگر خالی باشد، مصوبه توسط یک راهبر و یا  تصویب‌کننده انجام می شود (تعیین شده در تنظیمات/کاربران)."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
@@ -1716,10 +1713,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"وضعیت بر اساس فعالیت ها\n"
-"به سر رسیده : موعد مقرر گذشته است\n"
-"امروز: تاریخ فعالیت امروز است\n"
-"برنامه ریزی شده: فعالیت های آینده."
+"وضعیت بر اساس فعالیت\n"
+"Overdue: Due date is already passed\n"
+"امروز:تاریخ فعالیت امروز است\n"
+"برنامه‌ریزی شده: برنامه‌های آینده."
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__state
@@ -1729,13 +1726,13 @@ msgstr "وضعیت هزینه."
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Submit to Manager"
-msgstr "ارسال به مدیر"
+msgstr "تقدیم به مدیر"
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__reported
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__submit
 msgid "Submitted"
-msgstr "ارسال ‌شده"
+msgstr "تقدیم‌شده"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__untaxed_amount
@@ -1751,7 +1748,7 @@ msgstr "مالیات ها"
 #. module: hr_expense
 #: model:res.groups,name:hr_expense.group_hr_expense_team_approver
 msgid "Team Approver"
-msgstr "تایید ‌کننده تیم"
+msgstr "تصویب‌کننده تیم"
 
 #. module: hr_expense
 #. openerp-web
@@ -1771,7 +1768,7 @@ msgstr "کاربر فعلی دارای کارمند مرتبط نیست لطفا
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "The expense reports were successfully approved."
-msgstr "گزارش های هزینه با موفقیت تایید شد."
+msgstr "گزارش های هزینه با موفقیت تصویب‌ شد."
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
@@ -1813,23 +1810,23 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "There are no expense reports to approve."
-msgstr "هیچ گزارش هزینه‌ای برای تایید وجود ندارد."
+msgstr "هیچ گزارش هزینه‌ای برای تصویب‌ وجود ندارد."
 
 #. module: hr_expense
 #: model:digest.tip,name:hr_expense.digest_tip_hr_expense_0
 #: model_terms:digest.tip,tip_description:hr_expense.digest_tip_hr_expense_0
 msgid "Tip: Snap pictures of your receipts with the remote app"
-msgstr "نکته: با برنامه کنترل از راه دور، از رسیدهای خود عکس بگیرید"
+msgstr "نکته: عکس‌های رسیدهای خود را با برنامه از راه دور جاسازی کنید"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "To Approve"
-msgstr "برای موافقت"
+msgstr "برای تصویب‌"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "To Pay"
-msgstr "قابل پرداخت"
+msgstr "برای پرداخت"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
@@ -1844,7 +1841,7 @@ msgstr "برای گزارش"
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__draft
 msgid "To Submit"
-msgstr "برای ارسال"
+msgstr "برای تقدیم"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
@@ -1915,18 +1912,18 @@ msgstr "واحد ها"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_unread
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_unread
 msgid "Unread Messages"
-msgstr "پیام های ناخوانده"
+msgstr "پیام‌های خوانده‌‌نشده"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_unread_counter
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr "شمارنده پیام‌های خوانده‌نشده"
+msgstr "شمارنده پیام‌های خوانده‌ نشده"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_uom_category_id
 msgid "UoM Category"
-msgstr "دسته UoM"
+msgstr ""
 
 #. module: hr_expense
 #. openerp-web
@@ -1978,7 +1975,7 @@ msgstr "پیام‌های وب‌سایت"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__website_message_ids
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__website_message_ids
 msgid "Website communication history"
-msgstr "تاریخچه ارتباط با وبسایت"
+msgstr "تاریخچه ارتباطات با وبسایت"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
@@ -2017,14 +2014,14 @@ msgstr "هم اکنون می توانید آن را از لینک زیر به م
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "You can only approve your department expenses"
-msgstr "شما فقط می توانید هزینه‌های دپارتمان خود را تایید‌ کنید"
+msgstr "شما فقط می توانید هزینه‌های دپارتمان خود را تصویب‌ کنید"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "You can only generate accounting entry for approved expense(s)."
 msgstr ""
-"شما فقط می‌توانید سند حسابداری برای هزینه(های) تایید ‌شده را ایجاد کنید."
+"شما فقط می‌توانید سند حسابداری برای هزینه(های) تصویب‌شده را ایجاد کنید."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
@@ -2048,13 +2045,13 @@ msgstr "شما نمی توانید هزینه‌های یک کارمند دیگ�
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "You cannot approve your own expenses"
-msgstr "شما نمی‌توانید هزینه خود را تایید کنید"
+msgstr "شما نمی‌توانید هزینه خود را تصویب‌ کنید"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "You cannot delete a posted or approved expense."
-msgstr "شما نمی‌توانید یک هزینه ثبت‌شده و یا تایید ‌شده را حذف کنید."
+msgstr "شما نمی‌توانید یک هزینه ثبت‌شده و یا تصویب‌شده را حذف کنید."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
@@ -2128,7 +2125,7 @@ msgstr "کیلومتر"
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "to be reimbursed"
-msgstr "برای بازپرداخت"
+msgstr "تا بازپرداخت شود"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0

@@ -57,9 +57,10 @@ function factory(dependencies) {
             const employeesData = await this.env.services.rpc({
                 model: 'hr.employee.public',
                 method: 'read',
-                args: [ids, fields],
+                args: [ids],
                 kwargs: {
                     context,
+                    fields,
                 },
             });
             this.messaging.models['hr.employee'].insert(employeesData.map(employeeData =>
@@ -146,10 +147,10 @@ function factory(dependencies) {
         /**
          * Opens the most appropriate view that is a profile for this employee.
          */
-        async openProfile(model = 'hr.employee.public') {
+        async openProfile() {
             return this.messaging.openDocument({
                 id: this.id,
-                model: model,
+                model: 'hr.employee.public',
             });
         }
 

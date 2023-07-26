@@ -1177,7 +1177,7 @@ class Import(models.TransientModel):
                         else:
                             try:
                                 base64.b64decode(line[index], validate=True)
-                            except ValueError:
+                            except binascii.Error:
                                 raise ImportValidationError(
                                     _("Found invalid image data, images should be imported as either URLs or base64-encoded data."),
                                     field=name, field_type=field['type']

@@ -9,8 +9,6 @@
 # Kim Asplund <kim.asplund@gmail.com>, 2021
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2022
-# Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2023
-# Lasse Larsson, 2023
 # 
 msgid ""
 msgstr ""
@@ -18,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:28+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
-"Last-Translator: Lasse Larsson, 2023\n"
-"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>, 2022\n"
+"Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -34,13 +32,11 @@ msgid ""
 "\"\n"
 "                (ID:"
 msgstr ""
-"\"\n"
-"                (ID:"
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__help
 msgid "Action Description"
-msgstr "Åtgärdsbeskrivning"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__name
@@ -80,7 +76,7 @@ msgstr "Lägg till följare"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__filter_domain
 msgid "Apply on"
-msgstr "Applicera på"
+msgstr ""
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
@@ -109,22 +105,22 @@ msgstr "Automatisering"
 #: model:ir.cron,cron_name:base_automation.ir_cron_data_base_automation_check
 #: model:ir.cron,name:base_automation.ir_cron_data_base_automation_check
 msgid "Base Action Rule: check and execute"
-msgstr "Grundläggande handlingsregel: kontrollera och utföra"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_change
 msgid "Based on Form Modification"
-msgstr "Baserat på formförändring"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_time
 msgid "Based on Timed Condition"
-msgstr "Baserat på tidsbestämda villkor"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__filter_pre_domain
 msgid "Before Update Domain"
-msgstr "Före uppdatering av domän"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__binding_model_id
@@ -134,17 +130,17 @@ msgstr "Bindande modell"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__binding_type
 msgid "Binding Type"
-msgstr "Typ av bindning"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__binding_view_types
 msgid "Binding View Types"
-msgstr "Typer av bindningsvyer"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__child_ids
 msgid "Child Actions"
-msgstr "Åtgärder för barn"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__child_ids
@@ -152,8 +148,6 @@ msgid ""
 "Child server actions that will be executed. Note that the last return "
 "returned action value will be used as global return value."
 msgstr ""
-"Åtgärder på barnservern som ska utföras. Observera att det senast "
-"returnerade åtgärdsvärdet kommer att användas som globalt returvärde."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__create_uid
@@ -193,7 +187,7 @@ msgstr "Ledtidstyp"
 #: code:addons/base_automation/static/src/xml/base_automation_error_dialog.xml:0
 #, python-format
 msgid "Disable Action"
-msgstr "Inaktivera åtgärd"
+msgstr ""
 
 #. module: base_automation
 #. openerp-web
@@ -205,10 +199,6 @@ msgid ""
 "                as you are effectively disabling a customization that may set\n"
 "                important and/or required fields."
 msgstr ""
-"Om du inaktiverar denna automatiska åtgärd kan du fortsätta ditt arbetsflöde\n"
-"                men alla data som skapas efter detta kan potentiellt vara skadade,\n"
-"                eftersom du effektivt inaktiverar en anpassning som kan ställa in\n"
-"                viktiga och/eller obligatoriska fält."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__display_name
@@ -223,14 +213,14 @@ msgstr "Förfallodatum"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__activity_date_deadline_range_type
 msgid "Due type"
-msgstr "Typ av förfallodag"
+msgstr ""
 
 #. module: base_automation
 #. openerp-web
 #: code:addons/base_automation/static/src/xml/base_automation_error_dialog.xml:0
 #, python-format
 msgid "Edit action"
-msgstr "Redigera åtgärd"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__template_id
@@ -245,7 +235,7 @@ msgstr "Externt ID"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__on_change_field_ids
 msgid "Fields that trigger the onchange."
-msgstr "Fält som utlöser onchange."
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__groups_id
@@ -265,7 +255,7 @@ msgstr "ID"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__xml_id
 msgid "ID of the action if defined in a XML file"
-msgstr "Åtgärdens ID om den definieras i en XML-fil"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
@@ -273,7 +263,6 @@ msgid ""
 "If present, this condition must be satisfied before executing the action "
 "rule."
 msgstr ""
-"Om detta villkor finns måste det uppfyllas innan åtgärdsregeln utförs."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_pre_domain
@@ -281,7 +270,6 @@ msgid ""
 "If present, this condition must be satisfied before the update of the "
 "record."
 msgstr ""
-"Om det finns, måste detta villkor uppfyllas före uppdateringen av posten."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation____last_update
@@ -306,12 +294,12 @@ msgstr "Senast uppdaterad"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__least_delay_msg
 msgid "Least Delay Msg"
-msgstr "Meddelande om minsta fördröjning"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__link_field_id
 msgid "Link Field"
-msgstr "Länkfält"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trg_date_range_type__minutes
@@ -334,13 +322,11 @@ msgid ""
 "Model for record creation / update. Set this field only to specify a "
 "different model than the base model."
 msgstr ""
-"Modell för skapande/uppdatering av poster. Ange det här fältet endast om du "
-"vill ange en annan modell än basmodellen."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__model_id
 msgid "Model on which the server action runs."
-msgstr "Modell som serveråtgärden körs på."
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trg_date_range_type__month
@@ -362,27 +348,27 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__on_change_field_ids
 msgid "On Change Fields Trigger"
-msgstr "Vid ändring Fält Trigger"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_create
 msgid "On Creation"
-msgstr "Vid skapelse"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_create_or_write
 msgid "On Creation & Update"
-msgstr "Vid skapande och uppdatering"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_unlink
 msgid "On Deletion"
-msgstr "Vid radering"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_write
 msgid "On Update"
-msgstr "Vid uppdatering"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__help
@@ -390,8 +376,6 @@ msgid ""
 "Optional help text for the users with a description of the target view, such"
 " as its usage and purpose."
 msgstr ""
-"Valfri hjälptext för användarna med en beskrivning av målvyn, t.ex. dess "
-"användning och syfte."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__link_field_id
@@ -399,8 +383,6 @@ msgid ""
 "Provide the field used to link the newly created record on the record used "
 "by the server action."
 msgstr ""
-"Ange det fält som används för att länka den nyskapade posten till den post "
-"som används av serveråtgärden."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__code
@@ -433,13 +415,11 @@ msgid ""
 "Setting a value makes this action available in the sidebar for the given "
 "model."
 msgstr ""
-"Om du anger ett värde blir åtgärden tillgänglig i sidofältet för den angivna"
-" modellen."
 
 #. module: base_automation
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
 msgid "Setup a new automated automation"
-msgstr "Ställ in en ny automatiserad automation"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__activity_summary
@@ -449,12 +429,12 @@ msgstr "Sammandrag"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__crud_model_id
 msgid "Target Model"
-msgstr "Målmodell"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__crud_model_name
 msgid "Target Model Name"
-msgstr "Målmodellens namn"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__activity_user_field_name
@@ -468,8 +448,6 @@ msgid ""
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
 msgstr ""
-"\"%(trigger_value)s\" %(trigger_label)s kan endast användas med åtgärdstypen"
-" \"%(state_value)s\""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trigger_field_ids
@@ -486,8 +464,6 @@ msgid ""
 "The error occurred during the execution of the automated action\n"
 "                \""
 msgstr ""
-"Felet uppstod under utförandet av den automatiserade åtgärden\n"
-"                \""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trigger
@@ -503,7 +479,7 @@ msgstr "Utlösningsdatum"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trigger_field_ids
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Trigger Fields"
-msgstr "Fält för utlösare"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__state
@@ -517,14 +493,6 @@ msgid ""
 "- 'Add Followers': add followers to a record (Discuss)\n"
 "- 'Create Next Activity': create an activity (Discuss)"
 msgstr ""
-"Typ av serveråtgärd. Följande värden är tillgängliga:\n"
-"- execute Python Code\": ett block av Python-kod som ska exekveras\n"
-"- \"Create\": skapar en ny post med nya värden\n"
-"- \"Update a Record\": Uppdatera värdena i en post\n"
-"- \"Execute several actions\": definierar en åtgärd som utlöser flera andra serveråtgärder\n"
-"- \"Skicka e-post\": skickar automatiskt ett e-postmeddelande (diskussion)\n"
-"- 'Add Followers': lägg till följare till en post (Diskutera)\n"
-"- \"Skapa nästa aktivitet\": skapa en aktivitet (Diskutera)"
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__usage
@@ -540,14 +508,11 @@ msgid ""
 " 'Generic User From Record' to specify the field name of the user to choose "
 "on the record."
 msgstr ""
-"Använd \"Specifik användare\" för att alltid tilldela samma användare vid "
-"nästa aktivitet. Använd 'Generisk användare från post' för att ange "
-"fältnamnet på den användare som ska väljas på posten."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_calendar_id
 msgid "Use Calendar"
-msgstr "Använd kalender"
+msgstr ""
 
 #. module: base_automation
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
@@ -558,16 +523,11 @@ msgid ""
 "                opportunity which still has status pending after 14 days might\n"
 "                trigger an automatic reminder email."
 msgstr ""
-"Använd automatiserade åtgärder för att automatiskt utlösa åtgärder för\n"
-"                olika skärmar. Exempel: ett lead som skapats av en viss användare kan\n"
-"                automatiskt sättas till ett specifikt säljteam, eller en\n"
-"                möjlighet som fortfarande har status väntande efter 14 dagar kan\n"
-"                utlösa ett automatiskt påminnelsemeddelande."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__activity_user_field_name
 msgid "User field name"
-msgstr "Namn på användarfält"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__fields_lines
@@ -587,8 +547,6 @@ msgid ""
 "When calculating a day-based timed condition, it is possible to use a "
 "calendar to compute the date based on working days."
 msgstr ""
-"Vid beräkning av ett dagbaserat tidsvillkor är det möjligt att använda en "
-"kalender för att beräkna datumet baserat på arbetsdagar."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__sequence
@@ -596,8 +554,6 @@ msgid ""
 "When dealing with multiple actions, the execution order is based on the "
 "sequence. Low number means high priority."
 msgstr ""
-"När det gäller flera åtgärder baseras utförandet på sekvensen. Låg siffra "
-"innebär hög prioritet."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_id
@@ -609,7 +565,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__active
 msgid "When unchecked, the rule is hidden and will not be executed."
-msgstr "Om den är avmarkerad är regeln dold och kommer inte att utföras."
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__code
@@ -617,8 +573,6 @@ msgid ""
 "Write Python code that the action will execute. Some variables are available"
 " for use; help about python expression is given in the help tab."
 msgstr ""
-"Skriv Python-kod som åtgärden ska utföra. Vissa variabler kan användas; "
-"hjälp om Python-uttryck finns i fliken Hjälp."
 
 #. module: base_automation
 #. openerp-web
@@ -627,8 +581,6 @@ msgstr ""
 msgid ""
 "You can ask an administrator to disable or correct this automated action."
 msgstr ""
-"Du kan be en administratör att inaktivera eller korrigera denna automatiska "
-"åtgärd."
 
 #. module: base_automation
 #. openerp-web
@@ -636,8 +588,6 @@ msgstr ""
 #, python-format
 msgid "You can disable this automated action or edit it to solve the issue."
 msgstr ""
-"Du kan inaktivera denna automatiska åtgärd eller redigera den för att lösa "
-"problemet."
 
 #. module: base_automation
 #: code:addons/base_automation/models/base_automation.py:0
@@ -646,5 +596,3 @@ msgid ""
 "You cannot send an email, add followers or create an activity for a deleted "
 "record.  It simply does not work."
 msgstr ""
-"Du kan inte skicka ett e-postmeddelande, lägga till följare eller skapa en "
-"aktivitet för en raderad post.  Det fungerar helt enkelt inte."

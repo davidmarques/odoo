@@ -44,7 +44,7 @@ export class AddToBoard extends Component {
         };
 
         const result = await this.rpc("/board/add_to_dashboard", {
-            action_id: this.env.config.actionId || false,
+            action_id: this.env.config.actionId,
             context_to_save: contextToSave,
             domain,
             name: this.state.name,
@@ -84,10 +84,10 @@ export class AddToBoard extends Component {
 
 AddToBoard.template = "board.AddToBoard";
 
-export const addToBoardItem = {
+const addToBoardItem = {
     Component: AddToBoard,
     groupNumber: 4,
-    isDisplayed: ({ config }) => config.actionType === "ir.actions.act_window" && config.actionId,
+    isDisplayed: ({ config }) => config.actionType === "ir.actions.act_window",
 };
 
 favoriteMenuRegistry.add("add-to-board", addToBoardItem, { sequence: 10 });

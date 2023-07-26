@@ -161,88 +161,88 @@
                             <t t-set="colspan" t-value="6"/>
                             <th name="th_description" class="text-left">
                                 <span>
-                                    الوصف
+                                    Description
                                 </span>
                                 <br/>
                                 <span>
-                                    Description
+                                    الوصف
                                 </span>
                             </th>
                             <th name="th_source" class="d-none text-left" t-if="0">
                                 <span>
-                                    المستند المصدر
+                                    Source Document
                                 </span>
                                 <br/>
                                 <span>
-                                    Source Document
+                                    المستند المصدر
                                 </span>
                             </th>
                             <th name="th_quantity" class="text-right">
                                 <span>
-                                    الكمية
+                                    Quantity
                                 </span>
                                 <br/>
                                 <span>
-                                    Quantity
+                                    الكمية
                                 </span>
                             </th>
                             <th name="th_priceunit"
                                 class="text-right">
                                 <span>
-                                    سعر الوحدة
+                                    Unit price
                                 </span>
                                 <br/>
                                 <span>
-                                    Unit price
+                                    سعر الوحدة
                                 </span>
                             </th>
                             <th name="th_price_unit" t-if="display_discount"
                                 class="text-right">
                                 <span>
-                                    خصم %
+                                    Disc.%
                                 </span>
                                 <br/>
                                 <span>
-                                    Disc.%
+                                    خصم %
                                 </span>
                                 <t t-set="colspan" t-value="colspan+1"/>
                             </th>
                             <th name="th_taxes"
                                 class="text-right">
                                 <span>
-                                    الضرائب
+                                    Taxes
                                 </span>
                                 <br/>
                                 <span>
-                                    Taxes
+                                    الضرائب
                                 </span>
                             </th>
                             <th name="th_subtotal" class="text-right">
                                 <span>
-                                    مبلغ
+                                    Amount
                                 </span>
                                 <br/>
                                 <span>
-                                    Amount
+                                    مبلغ
                                 </span>
                             </th>
                             <th name="th_tax_amount"
                                 class="text-right">
                                 <span>
-                                    قيمة الضريبة
+                                    VAT Amount
                                 </span>
                                 <br/>
                                 <span>
-                                    VAT Amount
+                                    قيمة الضريبة
                                 </span>
                             </th>
                             <th name="th_total" class="text-right">
                                 <span>
-                                    السعر الاجمالي
+                                    Total Price
                                 </span>
                                 <br/>
                                 <span>
-                                    Total Price
+                                    السعر الاجمالي
                                 </span>
                             </th>
                         </tr>
@@ -262,26 +262,17 @@
                             <tr t-att-class="'bg-200 font-weight-bold o_line_section' if line.display_type == 'line_section' else 'font-italic o_line_note' if line.display_type == 'line_note' else ''">
                                 <t t-if="not line.display_type" name="account_invoice_line_accountable">
                                     <td name="account_invoice_line_name">
+                                        <t t-set="translation_name" t-value="line.with_context(lang='ar_001').product_id.name"/>
                                         <t t-if="line.product_id">
-                                            <t t-set="arabic_name" t-value="line.with_context(lang='ar_001').product_id.display_name"/>
-                                            <t t-set="english_name" t-value="line.with_context(lang='en_US').product_id.display_name"/>
-
-                                            <span t-field="line.product_id.display_name"
-                                                t-options="{'widget': 'text'}"/>
-
-                                            <t t-if="arabic_name != english_name">
+                                            <span t-field="line.product_id.name" t-options="{'widget': 'text'}"/>
+                                            <t t-if="line.product_id.name != translation_name">
                                                 <br/>
                                                 <span t-field="line.with_context(lang='ar_001').product_id.name"
-                                                    style="text:right"
-                                                    t-options="{'widget': 'text'}"/>
-                                            </t>
-
-                                            <t t-if="line.name != english_name and line.name != arabic_name">
-                                                <br/>
-                                                <span t-field="line.name" t-options="{'widget': 'text'}"/>
+                                                      t-options="{'widget': 'text'}"/>
                                             </t>
                                         </t>
-                                        <t t-else="">
+                                        <t t-if="line.name and line.name != line.product_id.name and line.name != translation_name">
+                                            <t t-if="line.product_id"><br/></t>
                                             <span t-field="line.name" t-options="{'widget': 'text'}"/>
                                         </t>
                                     </td>

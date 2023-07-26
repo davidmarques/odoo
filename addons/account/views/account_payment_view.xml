@@ -220,9 +220,7 @@
 
                             <!-- Journal Entry  button -->
                             <button name="button_open_journal_entry" type="object" class="oe_stat_button" icon="fa-bars">
-                                <div class="o_stat_info">
-                                    <span class="o_stat_text">Journal Entry</span>
-                                </div>
+                                Journal Entry
                             </button>
                         </div>
 

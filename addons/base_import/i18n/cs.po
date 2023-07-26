@@ -4,13 +4,12 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Chris, 2021
+# Chris <krystof.reklamy13@gmail.com>, 2021
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2021
-# Jiří Podhorecký, 2021
+# trendspotter <jirka.p@volny.cz>, 2021
 # Damian Brencic <brencicdamian12313@gmail.com>, 2021
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2021
 # karolína schusterová <karolina.schusterova@vdp.sk>, 2021
-# Aleš Fiala <f.ales1@seznam.cz>, 2023
 # 
 msgid ""
 msgstr ""
@@ -18,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:19+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
-"Last-Translator: Aleš Fiala <f.ales1@seznam.cz>, 2023\n"
-"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
+"Last-Translator: karolína schusterová <karolina.schusterova@vdp.sk>, 2021\n"
+"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -50,7 +49,7 @@ msgstr ""
 #: code:addons/base_import/static/src/legacy/js/import_action.js:0
 #, python-format
 msgid "Additional Fields"
-msgstr "Další pole"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -101,7 +100,7 @@ msgstr "Mapování základního importu"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Batch Import"
-msgstr "Dávkový import"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -173,7 +172,7 @@ msgstr ""
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Create new values"
-msgstr "Vytvořit nové hodnoty"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__create_uid
@@ -294,7 +293,7 @@ msgstr "Stáhnout"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Download Template"
-msgstr "Stáhnout šablonu"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_complex__dt
@@ -360,7 +359,7 @@ msgstr "Soubor"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "File Column"
-msgstr "Sloupec souboru"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__file_name
@@ -468,10 +467,6 @@ msgid ""
 "                    field corresponding to the column. This makes imports\n"
 "                    simpler especially when the file has many columns."
 msgstr ""
-"Pokud soubor obsahuje\n"
-"                    názvy sloupců, může Odoo zkusit automatickou detekci\n"
-"                    pole odpovídajícího sloupci. Díky tomu je import jednodušší,\n"
-"                    zejména pokud má soubor mnoho sloupců."
 
 #. module: base_import
 #. openerp-web
@@ -490,8 +485,6 @@ msgstr ""
 msgid ""
 "Image size excessive, imported images must be smaller than 42 million pixel"
 msgstr ""
-"Nadměrná velikost obrázku, nahrané obrázky musí být menší než 42 milionů "
-"pixelu"
 
 #. module: base_import
 #. openerp-web
@@ -650,7 +643,7 @@ msgstr "Načíst soubor"
 #: code:addons/base_import/static/src/legacy/js/import_action.js:0
 #, python-format
 msgid "Loading file..."
-msgstr "Načíst soubor..."
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -695,7 +688,7 @@ msgstr "Žádný oddělovač"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "No matching records found for"
-msgstr "Žádné odpovídající záznamy pro"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -709,7 +702,7 @@ msgstr ""
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Odoo Field"
-msgstr "Pole Odoo"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_preview__othervalue
@@ -795,42 +788,42 @@ msgstr "Oddělovač:"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Set to:"
-msgstr "Nastavit na:"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Set to: False"
-msgstr "Nastavit na: Nepravda"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Set to: True"
-msgstr "Nastavit na: Pravda"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Set value as empty"
-msgstr "Nastavit hodnotu jako prázdnou"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Sheet:"
-msgstr "List:"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Skip record"
-msgstr "Přeskočit záznam"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_preview__somevalue
@@ -849,7 +842,7 @@ msgstr "Prostor"
 #: code:addons/base_import/static/src/legacy/js/import_action.js:0
 #, python-format
 msgid "Standard Fields"
-msgstr "Standartní pole"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -870,7 +863,7 @@ msgstr ""
 #: code:addons/base_import/static/src/legacy/js/import_action.js:0
 #, python-format
 msgid "Suggested Fields"
-msgstr "Navrhovaná pole"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -1072,7 +1065,7 @@ msgstr "Bez názvu"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Upload File"
-msgstr "Nahrát soubor"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -1159,21 +1152,21 @@ msgstr "Musíte importovat alespoň jedno pole"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "at multiple rows"
-msgstr "ve více řádcích"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "at row"
-msgstr "v řádku"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "batch"
-msgstr "šarže"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -1181,7 +1174,7 @@ msgstr "šarže"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "in field"
-msgstr "v poli"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -1195,7 +1188,7 @@ msgstr "minut"
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "more)"
-msgstr "více)"
+msgstr ""
 
 #. module: base_import
 #. openerp-web

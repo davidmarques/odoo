@@ -11,7 +11,6 @@
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2021
 # Ofir Blum <ofir.blum@gmail.com>, 2021
 # Lilach Gilliam <lilach.gilliam@gmail.com>, 2022
-# Ha Ketem <haketem@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -19,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:28+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
-"Last-Translator: Ha Ketem <haketem@gmail.com>, 2022\n"
-"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
+"Last-Translator: Lilach Gilliam <lilach.gilliam@gmail.com>, 2022\n"
+"Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -32,14 +31,14 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "%s employees"
-msgstr "%s עובדים"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Add Contact To Database"
-msgstr "הוספת איש קשר לבסיס הנתונים"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -59,14 +58,14 @@ msgstr "אפשר"
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "An error has occurred when trying to fetch translations."
-msgstr "קרתה שגיאה בניסיון להביא תרגומים."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Annual Revenue"
-msgstr "הכנסה שנתית"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -75,20 +74,20 @@ msgstr "הכנסה שנתית"
 msgid ""
 "Attachments could not be logged in Odoo because their total size exceeded "
 "the allowed maximum."
-msgstr "הצרופות לא עלו ל-Odoo כי הגודל הכולל שלהן עלה על המקסימום המותר."
+msgstr ""
 
 #. module: mail_plugin
 #: code:addons/mail_plugin/controllers/mail_plugin.py:0
 #, python-format
 msgid "Bad Email."
-msgstr "מייל לא טוב."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Buy More"
-msgstr "לקנות עוד"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -102,14 +101,14 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Can not save the contact"
-msgstr "לא הצלחנו לשמור אישקשר"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Clear Translations Cache"
-msgstr "ניקוי מטמון תרגום"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -130,7 +129,7 @@ msgstr "חברה"
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Company Created."
-msgstr "ארגון נוצר."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -138,7 +137,7 @@ msgstr "ארגון נוצר."
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Company Insights"
-msgstr "תובנות ארגוניות"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -153,14 +152,14 @@ msgstr "סוג החברה"
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Company created"
-msgstr "הארגון נוצר"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Company updated"
-msgstr "ארגון עודכן"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -182,20 +181,20 @@ msgstr "פרטי איש קשר"
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Contact created"
-msgstr "איש קשר נוצר"
+msgstr ""
 
 #. module: mail_plugin
 #: code:addons/mail_plugin/controllers/mail_plugin.py:0
 #, python-format
 msgid "Contact has no valid email"
-msgstr "לאיש הקשר אין מייל תקין"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Contacts Found (%(count)s)"
-msgstr "אנשי קשר נמצאו (%(count)s)"
+msgstr ""
 
 #. module: mail_plugin
 #: model:ir.model.fields,help:mail_plugin.field_res_partner_iap__partner_id
@@ -214,21 +213,21 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Could not connect to database. Try to log out and in."
-msgstr "לא הצלחנו להתחבר לבסיס הנתונים. נא לצאת מהמערכת ולהכנס שוב."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Could not connect to your database. Please try again."
-msgstr "לא הצלחנו להתחבר לבסיס הנתונים, אנא נסו שוב."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Could not display image %(attachmentName)s, size is over limit."
-msgstr "לא הצלחנו להציג את הדימוי %(attachmentName)s, גדול מעבר למקסימום."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -242,14 +241,14 @@ msgstr "צור"
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Create a Company"
-msgstr "יצירת ארגון"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Create a company"
-msgstr "יצירת ארגון"
+msgstr ""
 
 #. module: mail_plugin
 #: model:ir.model.fields,field_description:mail_plugin.field_res_partner_iap__create_uid
@@ -285,7 +284,7 @@ msgstr ""
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
 msgid "Deny"
-msgstr "לשלול"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -309,7 +308,7 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Email already logged on the contact"
-msgstr "מייל כבר רשום לאיש הקשר"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -339,14 +338,14 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Founded Year"
-msgstr "שנת יסוד"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "From : %(email)s"
-msgstr "מאת: %(email)s"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -360,7 +359,7 @@ msgstr "מ:"
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Gmail Inbox"
-msgstr "תיבת דואר נכנס ג'ימייל"
+msgstr ""
 
 #. module: mail_plugin
 #: model:ir.model,name:mail_plugin.model_ir_http
@@ -411,7 +410,7 @@ msgstr "תעשייה"
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Invalid URL"
-msgstr "קישור לא תקין"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -439,14 +438,14 @@ msgstr "עדכון אחרון ב"
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
 msgid "Let"
-msgstr "לאפשר"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Log Email Into Contact"
-msgstr "חיבור מייל לאיש קשר"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -461,7 +460,7 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Logged from"
-msgstr "התחבר מ"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -484,21 +483,21 @@ msgstr "התנתק"
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "No additional insights were found for this company"
-msgstr "לא נמצאו עוד תובנות לארגון זה"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "No company attached to this contact"
-msgstr "אין ארגון שמחובר לאיש קשר זה"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "No company attached to this contact."
-msgstr "אין ארגון שמחובר לאיש קשר זה."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -519,14 +518,14 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "No contact found."
-msgstr "לא נמצאו אנשי קשר."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "No data found for this email address."
-msgstr "לא נמצא מידע עבור כתובת המייל."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -540,14 +539,14 @@ msgstr "לא נמצא מידע נוסף"
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "No insights for this company."
-msgstr "אין תובנות לארגון זה."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "No insights found for this address."
-msgstr "אין תובנות לכתובת זו."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -655,14 +654,14 @@ msgstr "הכנסות"
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Save in Odoo"
-msgstr "שמירה ב-Odoo"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Save the contact to create the company"
-msgstr "שמירת איש הקשר ליצירת ארגון"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -690,21 +689,21 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Search In Odoo"
-msgstr "חיפוש ב-Odoo"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Search contact"
-msgstr "חיפוש איש קשר"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Search contact in Odoo..."
-msgstr "חיפוש איש קשר ב-Odoo"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -712,13 +711,13 @@ msgstr "חיפוש איש קשר ב-Odoo"
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Something bad happened. Please, try again later."
-msgstr "משהו לא טוב קרה. נא לנסות שוב מאוחר יותר."
+msgstr ""
 
 #. module: mail_plugin
 #: code:addons/mail_plugin/controllers/mail_plugin.py:0
 #, python-format
 msgid "The partner already has a company related to him"
-msgstr "לשותף כבר יש ארגון מקושר אליו"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -746,7 +745,7 @@ msgstr ""
 #: code:addons/mail_plugin/controllers/mail_plugin.py:0
 #, python-format
 msgid "This partner does not exist"
-msgstr "השותף הזה לא קיים"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -779,7 +778,7 @@ msgstr "אתר אינטרנט"
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Year founded"
-msgstr "שנת יסוד"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web

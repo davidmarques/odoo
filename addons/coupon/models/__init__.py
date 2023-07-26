@@ -6,4 +6,3 @@ from . import coupon
 from . import coupon_reward
 from . import coupon_rules
 from . import coupon_program
-from . import product_product

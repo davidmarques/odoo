@@ -21,7 +21,6 @@
 # david danilov, 2021
 # Lilach Gilliam <lilach.gilliam@gmail.com>, 2022
 # Netta Waizer, 2022
-# NoaFarkash, 2022
 # 
 msgid ""
 msgstr ""
@@ -29,8 +28,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 10:53+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
-"Last-Translator: NoaFarkash, 2022\n"
-"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
+"Last-Translator: Netta Waizer, 2022\n"
+"Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1061,7 +1060,7 @@ msgstr "צור תוכנית חוזרת"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__lead_mining_in_pipeline
 msgid "Create a lead mining request directly from the opportunity pipeline."
-msgstr "צור בקשה לכריית לידים ישירות מצבר ההזדמנויות."
+msgstr "צור בקשה לכריית לידים ישירות מצינור ההזדמנות."
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner__action__create
@@ -1131,7 +1130,7 @@ msgstr "צפה בתחזית CRM"
 #. module: crm
 #: model:ir.actions.server,name:crm.action_your_pipeline
 msgid "Crm: My Pipeline"
-msgstr "ניהול קשרי לקוחות: צבר ההזדמנויות שלי "
+msgstr "ניהול קשרי לקוחות: צינור הפעילות שלי "
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__company_currency
@@ -1212,8 +1211,7 @@ msgstr "תיאור"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid ""
 "Did you know emails sent to  generate opportunities in your pipeline?<br>"
-msgstr ""
-"האם ידעת שהודעות דוא\"ל נשלחות כדי ליצור הזדמנויות בצבר ההזדמנויות שלך?<br>"
+msgstr "האם ידעת שהודעות דוא\"ל נשלחות כדי ליצור הזדמנויות בצינור שלך?<br>"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
@@ -1221,8 +1219,7 @@ msgid ""
 "Did you know emails sent to a Sales Team alias generate opportunities in "
 "your pipeline?"
 msgstr ""
-"האם ידעת שמיילים שנשלחו לכתובת אימייל של צוות מכירות מייצרים הזדמנויות בצבר "
-"ההזדמנויות שלך?"
+"האם ידעת שמיילים שנשלחו לכינוי צוות מכירות מייצרים הזדמנויות בצנרת שלך?"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
@@ -1461,7 +1458,7 @@ msgstr "שדות שניתן להשתמש בהם לצורך חישוב ציון �
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__fold
 msgid "Folded in Pipeline"
-msgstr "מקופל בצבר ההזדמנויות שלי"
+msgstr "מקופל בצינור נתונים"
 
 #. module: crm
 #: model:mail.activity.type,name:crm.mail_activity_demo_followup_quote
